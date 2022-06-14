@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="angularjs/angularjs_1.6.4_angular.min.js"></script>
+    <script src="angularjs/angular-ui-bootstrap/0.6.0/ui-bootstrap-tpls.js"></script>
+    <script src="angularjs/angularjs_1.6.4_angular-route.js"></script>
+    <script src="angularjs_controller/saleController.js"></script>
+</head>
+<body>
+    <div ng-controller="">
+        <script type="text/ng-template" id="modal_page.html">
+            <div class="modal-header">
+                <h3>I'm a modal!</h3>
+            </div>
+            <form ng-submit="submit()">
+                <div class="modal-body">
+                    <label>User name</label>
+                    <input type="text" ng-model="user.user" />
+                    <label>Password</label>
+                    <input type="password" ng-model="user.password" />
+                    <label>Add some notes</label>
+                    <textarea rows="4" cols="50" ng-model="user.notes">
+
+                    </textarea>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+                    <input type="submit" class="btn primary-btn" value="Submit" />
+                </div>
+            </form>
+        </script>
+        <div ng-show="selected">Selection from a modal: {{ selected }}</div>
+    </div>
+</body>
+</html>
