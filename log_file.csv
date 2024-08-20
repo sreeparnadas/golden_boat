@@ -1,0 +1,4059 @@
+2018-03-29 11:51:48,7Y37392415,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00013-1718',5,'GSZFGZ','GSZFGZ','4558888888','4548','vbdvxz','fghf','45277','ghvghvghv','fgh','8','fgjhgjh','kljkl','kjhjk',1,'19')
+2018-03-30 12:17:30,5XA98YHY4H,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00016-1718',5,'SDFFWFAS','SDFFWFAS','3456656566',NULL,'rgsfdf',NULL,NULL,'gyghhj','ugfjgjh',NULL,NULL,NULL,NULL,1,NULL)
+2018-03-30 12:17:31,8521582627,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00016-1718',5,'SDFFWFAS','SDFFWFAS','3456656566',NULL,'rgsfdf',NULL,NULL,'gyghhj','ugfjgjh',NULL,NULL,NULL,NULL,1,NULL)
+2018-03-30 01:47:28,6713102H63,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00008-1718',5,'DFFAFF','DFFAFF','1235666665','vhj',NULL,'ghvgvg','vgbvg','gvjhvjh','vgvjh','16','dsefsg','bghjhfg','jhgjhgjh',1,'19')
+2018-03-30 01:56:24,763XXH1448,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00011-1718',5,'GHFGH','GHFGH','5454534554','cfhcfgh','fgfgg','gjhgjh','jhghjk','fghfgh','fgcfgcfgy','12','jhgjhgjhg','gfghf','ghjgjhgh',1,'19')
+2018-03-30 01:56:48,5X36105H80,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00011-1718',5,'SREEPARNA DAS','SREEPARNA DAS','5454534554','cfhcfgh','fgfgg','gjhgjh','jhghjk','fghfgh','fgcfgcfgy','12','jhgjhgjhg','gfghf','ghjgjhgh',1,'19')
+2018-03-30 07:00:41,73H47AH973,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00014-1718',5,'Xcbxcvbxcv Zxcbvcxvb','Xcbxcvbxcv Zxcbvcxvb','4564565645','3453434',NULL,'tffghdf','45654','Sdfg Dfsgsdfgsdfg Dfgsdfg','Sdfg Sdfgsdfg','38','sdfgdsf sd dfsg','456456','456456',1,'10')
+2018-03-30 07:02:03,1HA957H539,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00014-1718',5,'Xcbxcvbxcv Zxcbvcxvb','Xcbxcvbxcv Zxcbvcxvb','4564565645','3453434','dhdfhfghfg','tffghdf','45654','Sdfg Dfsgsdfgsdfg Dfgsdfg','Sdfg Sdfgsdfg','38','sdfgdsf sd dfsg','456456','456456',1,'10')
+2018-03-31 07:34:01,016283H36Y,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00020-1718',5,'Fgjhfgj','','567567','567','fgj','ghjghj','456456','Hjghj','Ghjghj','39','ghjghj','56756','rtyrty',1,'10')
+2018-03-31 07:36:00,175YX50439,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00020-1718',5,'Sdfgsdfg','Sdfgsdfg','345345','3535','sdfgsdf','35','35','345','34','130','34','345','345',1,'18')
+2018-03-31 11:33:51,5XA9X8633X,purchase_model,insert_opening,1062insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('CR-00011-1718',5,'Dfghdfh','','5646456','45645','dfh','dfghdf','456456','Dfhfh','Dfgh','16','dfghdfh','r546546','456456',1,'19')
+2018-04-15 11:21:03,XA71H2542X,purchase_model,insert_opening,1054insert into person (
+               person_id
+              ,person_cat_id
+              ,person_name
+              ,mailing_name
+              ,mobile_no
+              ,phone_no
+              ,email
+              ,aadhar_no
+              ,pan_no
+              ,address1
+              ,city
+              ,district_id
+              ,post_office
+              ,pin
+              ,gst_number
+              ,inforce
+              ,state_id
+            ) VALUES ('C-00001-1819',4,'Debojyoti Saha','Debojyoti Saha','90032658898','033256589','debojyoti@gmail.com','4564','','Bethua','Hhh','9','Jkhj','46545','4524',1,'19')
+2018-04-17 02:29:56,HY39H98398,person model,update_person,1054update person set
+                  person_name='Rohini Karmakar'
+                , billing_name='Rohini Karmakar'
+                , mobile_no='45453'
+                , phone_no='5454'
+                , email='rohini@gmail.com'
+                , aadhar_no='SFDF789789BGB'
+                , pan_no='5878'
+                , address1='Barrackpore'
+                , city='Dtfff'
+                , district_id='5'
+                , post_office='Ncp'
+                , pin='45478'
+                , gst_number='12545'
+                , state_id='19' where person_id='C-00005-1819'
+2018-04-17 03:10:17,625Y88249A,person model,update_person,1064update person set
+                person_name=?
+                , billing_name=?
+                , sex=?
+                , mobile_no=?
+                , phone_no=?
+                , email_id=?
+                , aadhar_no=?
+                , pan_no=?
+                , address1=?
+                , address2=?
+                , city=?
+                , district_id=?
+                , post_office=?
+                , pin=?
+                , gst_number=?
+                , area=?
+                , state_id=? where person_id=?
+2018-04-17 03:10:50,A11Y5H64A7,person model,update_person,1064update person set
+                person_name=?
+                , billing_name=?
+                , sex=?
+                , mobile_no=?
+                , phone_no=?
+                , email_id=?
+                , aadhar_no=?
+                , pan_no=?
+                , address1=?
+                , address2=?
+                , city=?
+                , district_id=?
+                , post_office=?
+                , pin=?
+                , gst_number=?
+                , area=?
+                , state_id=? where person_id=?
+2018-04-26 12:17:34,Y16H6620A1,purchase_model,insert_opening,1048insert into bill_details (
+               bill_details_id
+              ,bill_number
+              ,product_id
+              ,product_quality
+              ,quantity
+              ,gross_weight
+              ,net_weight
+              ,rate
+              ,making_charge_type
+  			  ,making_rate
+              ,other_charge
+              ,sgst
+              ,cgst
+              ,igst
+            ) VALUES ('SONA-00005-1819-1','SONA-00005-1819',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)
+2018-04-26 12:18:24,06561XAX64,purchase_model,insert_opening,1048insert into bill_details (
+               bill_details_id
+              ,bill_number
+              ,product_id
+              ,product_quality
+              ,quantity
+              ,gross_weight
+              ,net_weight
+              ,rate
+              ,making_charge_type
+  			  ,making_rate
+              ,other_charge
+              ,sgst
+              ,cgst
+              ,igst
+            ) VALUES ('SONA-00005-1819-2','SONA-00005-1819',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)
+2018-05-03 07:12:39,HX40A27550,purchase_model,insert_opening,1054insert into bill_details (
+               bill2_details_id
+              ,bill2_number
+              ,product_id
+              ,product_quality
+              ,quantity
+              ,gross_weight
+              ,net_weight
+              ,rate
+              ,making_charge_type
+  			  ,making_rate
+              ,other_charge
+
+            ) VALUES ('SONA-00061-1819-2','SONA-00061-1819','7','22k','1','12.25','25.25','120','1','250',125)
+2018-05-03 07:19:44,7663683269,purchase_model,insert_opening,1054insert into bill_details (
+               bill2_details_id
+              ,bill2_number
+              ,product_id
+              ,product_quality
+              ,quantity
+              ,gross_weight
+              ,net_weight
+              ,rate
+              ,making_charge_type
+  			  ,making_rate
+              ,other_charge
+
+            ) VALUES ('SONA-00061-1819-2','SONA-00061-1819','14','22k','1','12.25','25.25','25','1','1250',250)
+2018-05-03 07:22:37,4Y769Y7528,purchase_model,insert_opening,1054insert into bill_details (
+               bill2_details_id
+              ,bill2_number
+              ,product_id
+              ,product_quality
+              ,quantity
+              ,gross_weight
+              ,net_weight
+              ,rate
+              ,making_charge_type
+  			  ,making_rate
+              ,other_charge
+
+            ) VALUES ('SONA-00061-1819-2','SONA-00061-1819','3','HM','1','1','12.25','25025','1','1250',250)
+2018-05-03 07:26:03,Y4434H0X80,purchase_model,insert_opening,1054insert into bill_details (
+               bill2_details_id
+              ,bill2_number
+              ,product_id
+              ,product_quality
+              ,quantity
+              ,gross_weight
+              ,net_weight
+              ,rate
+              ,making_charge_type
+  			  ,making_rate
+              ,other_charge
+
+            ) VALUES ('SONA-00061-1819-2','SONA-00061-1819','3','HM','1','12.25','2.25','120','1','1250',250)
+2018-05-03 07:27:29,Y52YH19820,purchase_model,insert_opening,1054insert into bill_details (
+               bill2_details_id
+              ,bill2_number
+              ,product_id
+              ,product_quality
+              ,quantity
+              ,gross_weight
+              ,net_weight
+              ,rate
+              ,making_charge_type
+  			  ,making_rate
+              ,other_charge
+
+            ) VALUES ('SONA-00061-1819-2','SONA-00061-1819','7','22k','1','12.25','12.25','2505','1','125',250)
+2018-05-03 07:29:29,001HH2H9A7,purchase_model,insert_opening,1054insert into bill_details (
+               bill2_details_id
+              ,bill2_number
+              ,product_id
+              ,product_quality
+              ,quantity
+              ,gross_weight
+              ,net_weight
+              ,rate
+              ,making_charge_type
+  			  ,making_rate
+              ,other_charge
+
+            ) VALUES ('SONA-00061-1819-2','SONA-00061-1819','7','22k','1','12.25','12.25','2505','1','125',250)
+2018-05-03 07:30:32,18YH78Y148,purchase_model,insert_opening,1054insert into bill_details (
+               bill2_details_id
+              ,bill2_number
+              ,product_id
+              ,product_quality
+              ,quantity
+              ,gross_weight
+              ,net_weight
+              ,rate
+              ,making_charge_type
+  			  ,making_rate
+              ,other_charge
+
+            ) VALUES ('SONA-00061-1819-2','SONA-00061-1819','7','22k','1','12.25','12.25','2505','1','125',250)
+2018-05-03 07:31:03,YX9535350X,purchase_model,insert_opening,1054insert into bill_details (
+               bill2_details_id
+              ,bill2_number
+              ,product_id
+              ,product_quality
+              ,quantity
+              ,gross_weight
+              ,net_weight
+              ,rate
+              ,making_charge_type
+  			  ,making_rate
+              ,other_charge
+
+            ) VALUES ('SONA-00061-1819-2','SONA-00061-1819','7','22k','1','12.25','12.25','2505','1','125',250)
+2018-05-03 01:48:54,85X715XH5A,purchase_model,insert_opening,1064insert into bill2_master (
+               bill2_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,roundedOff
+              ,to_sql_date(order_date)
+              ,to_sql_date(sales_date)
+              ,inforce
+            ) VALUES ('SONA-00071-1819','C-00006-1819','ST-004','1001','2001',0,'03/05/2018','03/05/2018',1)
+2018-05-03 01:51:52,A865X261HY,purchase_model,insert_opening,1064insert into bill2_master (
+               bill2_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,roundedOff
+              ,(order_date)
+              ,sales_date
+              ,inforce
+            ) VALUES ('SONA-00071-1819','C-00006-1819','ST-004','11','201',0.25,'2018-05-03','2018-05-03',1)
+2018-05-03 01:56:09,2H77181110,purchase_model,insert_opening,1062insert into bill2_master (
+               bill2_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,roundedOff
+              ,order_date
+              ,sales_date
+              ,inforce
+            ) VALUES ('SONA-00071-1819','C-00006-1819','ST-004','111','111',0,'2018-05-03','2018-05-03',1)
+2018-05-03 01:57:32,5877AY9096,purchase_model,insert_opening,1062insert into bill2_master (
+               bill2_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,roundedOff
+              ,order_date
+              ,sales_date
+              ,inforce
+            ) VALUES ('SONA-00071-1819','C-00006-1819','ST-004','111','025',0.5,'2018-05-03','2018-05-03',1)
+2018-05-09 02:26:03,259849329A,purchase_model,insert_opening,1064update product set group_id=?, product_name=?, quality=? where product_id=?
+2018-05-09 02:31:56,852H310880,purchase_model,insert_opening,1064update product set group_id=?, product_name=?, quality=? where product_id=?
+2018-05-16 12:57:59,22H098747Y,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','8961740244','03325254587','sreeparnadas0675@gmail.com','1234165456FGHF45','465465','Barrackpore','Bkp','Bkp','16','Ncp','700122','124546',1,'Gandhi More','19')
+2018-05-16 01:31:02,1A37XYXX20,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','8961740244','033255258858','sreeparnadas0675@gmail.com','121654654','4654654','Barrackpore','Bkp','Kolkata','14','Ncp','700122','46465465',1,'Ghosh Para','19')
+2018-05-16 01:34:03,1AA32X5886,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','sreeparnadas0675@gmail.com','','','','','','','','','',1,'','19')
+2018-05-16 01:37:00,3H17Y383XH,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','6545432412','45456465','ghdfgh@gmail.com','','','Vhuvgbjh','Vbjhbjh','Kolkata','','','','',1,'Shyamasreepally','19')
+2018-05-16 01:51:25,8Y04734YHX,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 01:55:36,7H506H081Y,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','sreeparnadas0675@gmail.com','','','','','','','','','',1,'','19')
+2018-05-16 01:59:43,2H49864599,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','sreeparnadas@gmail.com','','','','','','','','','',1,'','19')
+2018-05-16 02:01:00,544X07A2X0,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 02:04:15,6X83617356,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 02:07:21,32X21AH39H,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 02:08:45,2032YX6097,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 02:39:30,H894518XX4,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00015-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 02:42:02,42Y2A3X97H,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00015-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 02:44:25,8A242X8HA6,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00015-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 05:21:24,668Y1XAYYY,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00008-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 05:42:54,1XY76Y78H3,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00008-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 05:46:32,XYHX6XA632,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00008-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 05:50:02,06Y06H997Y,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00008-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 05:51:03,6H6HY8A4AX,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00008-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','df@gfhfh.com','','','','','','','','','',1,'','19')
+2018-05-16 05:52:09,9X2YX270Y4,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00008-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 05:52:36,7Y62Y2287A,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00008-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 06:09:52,40HY193A3X,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 06:12:08,90Y87A3562,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 06:15:20,7283A11732,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00010-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 06:15:55,40280X2094,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00010-1819',4,'Sree Das','Sree Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-16 11:33:27,3Y5927YHY0,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00015-1819',4,'Sreeparna Das','Sreeparna Das','Female','','','','','','','','','','','','',1,'','19')
+2018-05-17 11:44:05,77A2HXX378,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00009-1819',4,'Debojyoti Saha','Debojyoti Saha','Male','7894562589','7896325412','','','','Station Para','Station Para','Bethuadahari','15',' Bethuadahari','741126','',1,'Gandhi More','19')
+2018-06-12 02:55:11,805XA58A37,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Necklace','HM',1)
+2018-06-13 12:44:31,0Y2654Y164,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Necklace','HM',1)
+2018-06-13 12:47:43,73A2196546,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Necklace','HM',1)
+2018-06-13 12:48:57,0560481148,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Necklace','HM',1)
+2018-06-13 12:50:58,HY79016XHX,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Necklace','HM',1)
+2018-06-26 01:20:23,390923A27H,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00010-1819',4,'Bjhbkb','Bjhbkb','Male','534545345','5545453','bhbhk@gmail.com','','','Hjjh','Mnb','Kolkata','15','','','',1,'Bkp','19')
+2018-09-11 12:01:06,835017X375,purchase_model,insert_opening,1062insert into bill2_master (
+               bill2_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,roundedOff
+              ,order_date
+              ,sales_date
+              ,inforce
+            ) VALUES ('SONA-01687-1819','C-00073-1819','ST-004','XXXX','XXXX',0,'2018-09-11','2018-09-11',1)
+2018-09-11 12:02:35,H6AYHY0X07,purchase_model,insert_opening,1062insert into bill2_master (
+               bill2_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,roundedOff
+              ,order_date
+              ,sales_date
+              ,inforce
+            ) VALUES ('SONA-01687-1819','C-00073-1819','ST-004','XXXX','XXXX',-0.4,'2018-09-11','2018-09-11',1)
+2018-09-11 12:05:54,00Y2Y714H6,purchase_model,insert_opening,1062insert into bill2_master (
+               bill2_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,roundedOff
+              ,order_date
+              ,sales_date
+              ,inforce
+            ) VALUES ('SONA-01687-1819','C-00073-1819','ST-004','XXXX','XXXX',0,'2018-09-11','2018-09-11',1)
+2018-10-08 11:26:22,91YX90XH05,purchase_model,insert_opening,1062insert into bill_master (
+               bill_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,order_date
+              ,sale_date
+              ,roundedOff
+              ,transaction_mode
+              ,card_number
+              ,inforce
+            ) VALUES ('SONA-01712-1819','C-00065-1718','ST-004','1321','45654','2018-10-09','2018-10-11',0.43,'Cash','',1)
+2018-11-06 01:49:15,73892A3X98,purchase_model,insert_opening,1062insert into bill2_master (
+               bill2_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,roundedOff
+              ,order_date
+              ,sales_date
+              ,inforce
+            ) VALUES ('SONA-00150-1819','C-00042-1819','ST-004','XXXX','XXXX',0,'2018-11-06','2018-11-06',1)
+2018-11-06 01:49:29,445H413967,purchase_model,insert_opening,1062insert into bill2_master (
+               bill2_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,roundedOff
+              ,order_date
+              ,sales_date
+              ,inforce
+            ) VALUES ('SONA-00150-1819','C-00042-1819','ST-004','XXXX','XXXX',0,'2018-11-06','2018-11-06',1)
+2018-11-06 01:50:39,0AH13YYX33,purchase_model,insert_opening,1062insert into bill2_master (
+               bill2_number
+              ,customer_id
+              ,employee_id
+              ,memo_no
+              ,order_no
+              ,roundedOff
+              ,order_date
+              ,sales_date
+              ,inforce
+            ) VALUES ('SONA-00150-1819','C-00042-1819','ST-004','XXXX','XXXX',0,'2018-11-06','2018-11-06',1)
+2019-04-17 07:08:03,6874X4Y336,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00061-1920',4,'Tandra Adhikari Jugpur No 6','Tandra Adhikari','Female','7908863004','','','','','jugpur no-6','','','15','jugpur','741126','',1,'','19')
+2019-05-04 05:00:51,982HYHH965,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00091-1920',4,'Jhuma Mondal Veramara','Jhuma Mondal','Female','8926840142','','','','','veramara','','','15',' Bethuadahari','741126','',1,'AKH','19')
+2019-05-04 05:33:33,A29294YAA2,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:36,7X99XYXY71,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:37,3583573H5A,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:37,080370Y8AH,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:37,5YH95H071A,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:37,30XHA65517,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:38,1955Y92A2H,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:38,9Y9448954Y,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:39,7H57329AY1,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:44,203A5X2149,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:44,9H10H3AY5H,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-04 05:33:47,4Y297YY701,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Sita Har','HM',1)
+2019-05-21 01:12:42,279H888837,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00145-1920',4,'Santosh Kumar Banik Sahapara','Santosh Kumar Banik','Male','9153739374','','','','','Saha Para','','','15',' Bethuadahari','741126','',1,'AKH','19')
+2019-05-21 01:12:50,A3YXX239Y2,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00145-1920',4,'Santosh Kumar Banik Sahapara','Santosh Kumar Banik','Male','9153739374','','','','','Saha Para','','','15',' Bethuadahari','741126','',1,'AKH','19')
+2019-05-26 06:27:45,18090926Y8,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00166-1920',4,'Aswini Ghosh Nichu Bazar','Aswini Ghosh','Male','9800152254','','','','','Nichu Bazar ','','','15',' Bethuadahari','741126','',1,'AKH','19')
+2019-08-12 04:57:29,14XXH23H01,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00240-1920',4,'Mamoni Mondal Jalsuka','Mamoni Mondal','Female','7699133114','','','','','Jalsuka','','','15','Badbillagram','741126','',1,'','19')
+2019-08-12 04:57:29,12891YY062,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00240-1920',4,'Mamoni Mondal Jalsuka','Mamoni Mondal','Female','7699133114','','','','','Jalsuka','','','15','Badbillagram','741126','',1,'','19')
+2019-10-30 01:01:12,HX2YHX179Y,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00283-1920',4,'Anil Ghosh Kanthalberia','Anil Ghosh','Male','9933141676','','','','','Kanthal Beria','','','15',' Bethuadahari','741126','',1,'AKH','19')
+2019-10-30 01:01:18,1A11947AY6,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00283-1920',4,'Anil Ghosh Kanthalberia','Anil Ghosh','Male','9933141676','','','','','Kanthal Beria','','','15',' Bethuadahari','741126','',1,'AKH','19')
+2019-10-30 01:06:04,22921Y4AA7,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00285-1920',4,'Golam Rohoman Kalibash','Golam Rohoman','Male','9749406262','8918130139','','','','Kalibash','','','15','uttar bahairgachi','741126','',1,'','19')
+2019-10-30 01:06:05,Y57HXY687A,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00285-1920',4,'Golam Rohoman Kalibash','Golam Rohoman','Male','9749406262','8918130139','','','','Kalibash','','','15','uttar bahairgachi','741126','',1,'','19')
+2019-11-27 12:39:57,9X5616H8XX,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Male'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:39:58,15646059Y1,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Male'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:39:59,24Y91185H4,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Male'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:02,33AXHH6006,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Male'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:02,19867200H5,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Male'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:03,5AY80AH908,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Male'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:26,5HX5A34A9Y,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:27,094YYH7675,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:27,46AA820278,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:27,43XH3Y908Y,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:27,X4Y4672942,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:28,H19HY222X0,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:28,0H72137X52,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:28,A7AY94574X,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:29,0212XA0Y88,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:40:29,7267872Y91,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:20,3Y44H82877,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:21,012293495Y,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:21,X9X6432880,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:21,2X401H4H92,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:22,09068YY34Y,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:22,8231AAA889,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:23,Y0H636XX86,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:23,0262H3X207,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:24,279X6H8514,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:24,H225561341,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:26,A646A195YA,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:27,03Y79X8136,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:27,551Y32XXA6,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:27,AXXX62H53Y,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:28,09H48H7278,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:28,HX6H223418,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:28,400XA764Y0,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:29,AXH08A193H,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:29,67486A1X0X,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:29,4AXY23785A,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:30,H0219A376X,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:30,XY2X8A4YHA,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:30,A953132031,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:31,18965A4X9A,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:42:31,A336X6X407,person model,update_person,1062update person set
+                person_name='Sale Rohoman Birpur'
+                , billing_name='Sale Rohoman'
+                , sex='Female'
+                , mobile_no='9647246053'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Birpur'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office='birpur'
+                , pin='741126'
+                , gst_number=''
+                , area=''
+                , state_id='19' where person_id='C-00090-1718'
+2019-11-27 12:43:37,815Y314H13,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00309-1920',4,'Sale Rohoman Birpur','Sale Rohoman','Male','9647246053','','','','','Birpur','','','15','birpur','741126','',1,'','19')
+2019-11-27 12:43:39,XYAX437AX3,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00309-1920',4,'Sale Rohoman Birpur','Sale Rohoman','Male','9647246053','','','','','Birpur','','','15','birpur','741126','',1,'','19')
+2019-11-27 12:43:39,04X28437H3,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00309-1920',4,'Sale Rohoman Birpur','Sale Rohoman','Male','9647246053','','','','','Birpur','','','15','birpur','741126','',1,'','19')
+2019-11-27 12:43:40,862AX8145Y,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00309-1920',4,'Sale Rohoman Birpur','Sale Rohoman','Male','9647246053','','','','','Birpur','','','15','birpur','741126','',1,'','19')
+2020-02-02 06:44:44,2HAHAH7414,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00368-1920',4,'Promatha Biswas Billagram','Promatha Biswas','Male','8927424797','','','','','Billagram .','','','15','Billagram','741138','',1,'','19')
+2020-03-15 06:29:40,1A30XHA655,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'2','Moll (sv)','Nil',1)
+2020-03-15 06:29:41,171955Y92A,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'2','Moll (sv)','Nil',1)
+2020-03-15 06:29:41,2H9Y944895,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'2','Moll (sv)','Nil',1)
+2020-03-15 06:29:42,0299282AH0,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'2','Moll (sv)','Nil',1)
+2020-09-18 10:05:31,5HH99Y80YY,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00020-2021',4,'Mahibul Islam Dhaparia','Mahibul Islam','Male','9958461274','','','598166932216','','Dhaparia','','','15','Matchpota','741124','',1,'','19')
+2021-04-03 01:51:04,XY6H8AH6YA,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00005-2122',4,'Promatha Biswas Billagram','Promatha Biswas','Male','','','','','','Billagram. ','','','15','Billagram','741138','',1,'','19')
+2021-05-03 04:24:09,9Y381YHXX6,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Churi','HM',1)
+2021-05-03 04:24:11,13Y9H63A0X,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Churi','HM',1)
+2021-05-03 04:24:25,7Y73675686,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Churi','HM',1)
+2021-05-03 04:24:25,18663Y699Y,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Churi','HM',1)
+2021-07-17 01:20:06,X09Y23AA93,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00078-2122',4,'Nurjahan Mondal Chandi Pur','Nurjahan Mondal','Female','','','','','','Chandi Pur','','','15','Malomgacha','741126','',1,'','19')
+2021-08-29 11:41:54,1627719A62,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00109-2122',4,'Bidhan Ghosh Matchpota','Bidhan Ghosh','Male','8918258272','','','','','Match pota','','','15','Matchpota','741124','',1,'','19')
+2021-10-04 01:08:56,4H59YX52Y1,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00162-2122',4,'Gosai Das Mondal Ujirpur','Gosai Das Mondal','Male','','','','','','Ujirpur.Barniya','','','15','Barniya','741156','',1,'','19')
+2021-10-10 08:06:00,H5846Y0H85,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:01,2X099H3383,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:03,Y08A8795YA,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:04,71512YX73X,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:04,68XA33776H,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:04,55Y701297A,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:08,X382492770,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:08,H899H7A9A0,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:09,06755YX419,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:09,XY08Y1826Y,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:09,84H348429Y,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:09,460X032305,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:10,57609XXY37,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:10,24074X4619,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:10,Y24951Y045,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:11,8514609YY9,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:11,4A46H903A2,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:11,41929X1439,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:12,X5832YXH0Y,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:12,639XA71827,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:39,6AH5A15X24,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:06:40,H294HY8678,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='saha para '
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='bethuadahari'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:32,AX596X8696,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:33,9982X72Y7A,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:34,93H7Y0885X,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:34,92H79099X4,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:36,828A1617Y8,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:37,Y7704A8991,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:58,8129525325,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:58,5YYAX9Y9X6,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:58,12X2A91H83,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:59,1623003954,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:08:59,1Y5792663A,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:00,X39819433H,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:03,08Y9133360,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:07,X3569YA761,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:08,H94H8H9049,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:15,AAXH1A61H4,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:15,13810X532A,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:16,H9H716H194,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:16,8Y97Y0AA1H,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:17,H305XA1076,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:17,0X81323X71,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:17,0651Y16198,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:20,2731554461,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:21,Y73XA5YAX1,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:21,80A662884Y,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:22,Y5800X233X,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:25,31X6X84713,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:25,A30HX5Y080,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:26,8A9Y65163Y,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:26,716Y03A428,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:26,8714X741AX,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:27,0335A6898H,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:27,A824Y98Y1H,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:27,677AA2012A,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:28,Y7X53H2X2A,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-10-10 08:09:28,638135H487,person model,update_person,1062update person set
+                person_name='Biswajit Ghosh Hospital Para'
+                , billing_name='Biswajit Ghosh'
+                , sex='Male'
+                , mobile_no='7319126996'
+                , phone_no=''
+                , email_id=''
+                , aadhar_no=''
+                , pan_no=''
+                , address1='Hospital para'
+                , address2=''
+                , city=''
+                , district_id='15'
+                , post_office=' Bethuadahari'
+                , pin='741126'
+                , gst_number=''
+                , area='AKH'
+                , state_id='19' where person_id='C-00594-1819'
+2021-11-28 04:02:29,AY5584A714,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00262-2122',4,'Salam Sk Dhaparia','Salam Sk','Male','9775449140','','','','','Dhaparia','','','15','Matchpota','741124','',1,'','19')
+2022-01-24 03:55:09,3147H8X118,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00333-2122',4,'Arun Kumar Saha Collage Para','Arun Kumar Saha','Male','9232436370','','','','','Collage para','','','15',' Bethuadahari','741126','',1,'','19')
+2022-02-04 10:22:15,3H4820309H,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00352-2122',4,'Madhab Shikdar Nakashipara','Madhab Shikdar','Male','7031525822','','','','','Nakashipara','','','15','Nakashi para','741126','',1,'','19')
+2022-02-19 04:12:06,2H22X8510H,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00376-2122',4,'Sufal Mondal Satteya Pur','Sufal Mondal','Male','8158966349','','','','','Satteya pur.','','','15',' Bethuadahari','741126','',1,'','19')
+2022-03-12 06:41:39,59H3XH76A6,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Breslet','HM',1)
+2022-03-12 06:41:42,9Y91A29Y70,purchase_model,insert_opening,1062insert into product (
+               product_id
+              ,group_id
+              ,product_name
+              ,quality
+              ,inforce
+           ) VALUES (null,'1','Breslet','HM',1)
+2022-05-09 07:06:11,8X76929A97,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00061-2223',4,'Satyajit Singha Roy Hospital Para','Satyajit Singha Roy','Male','9903766873','','','','','Hospital para','','','15',' Bethuadahari','741126','',1,'AKH','19')
+2022-07-31 03:43:02,28934YY177,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00157-2223',4,'Ankita Sarkar Patikabari','Ankita Sarkar','Female','','','','','','Patikabari .','','','15','Patikabari','741126','',1,'','19')
+2022-08-04 12:23:54,A33X5X4Y37,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00165-2223',4,'Pushpa Bepari Radhanagar Coloni','Pushpa Bepari','Female','','','','','','Rradhanagar Coloni','','','15','Radhanagar Coloni','741126','',1,'','19')
+2022-08-10 05:33:01,21Y568X686,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00174-2223',4,'Bablu Ghosh Veramara','Bablu Ghosh','Male','','','','','','West Jagadananda Pur(Veramara)','','','15',' Bethuadahari','741126','',1,'','19')
+2023-05-04 06:50:25,A99X8AHYY3,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00039-2324',4,'Ratan Biswas Billagram','Ratan Biswas','Male','','','','','','Billagram. ','','','15','Billagram','741138','',1,'','19')
+2023-05-04 06:50:39,397H9A1931,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00039-2324',4,'Ratan Biswas Billagram','Ratan Biswas','Male','','','','','','Billagram. ','','','15','Billagram','741138','',1,'','19')
+2023-08-17 06:02:29,AYA0X32394,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00161-2324',4,'Pratima Ghosh Birpur Ghosh Para','Pratima Ghosh','Female','9339115962','','','','','Ghosh Para.Birpur','','','15','Birpur','741126','',1,'','19')
+2023-08-17 06:03:07,XAYH25YY1H,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00161-2324',4,'Pratima Ghosh Birpur Ghosh Para','Pratima Ghosh Birpur Ghosh Para','Female','9339115962','','','','','Ghosh Para.Birpur','','','15','Birpur','741126','',1,'','19')
+2023-10-07 07:57:08,6A1AX7X360,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00207-2324',4,'Ruma Sarkar Patikabari','Ruma Sarkar','Female','8617674282','','','','','Patikabari .','','','15','Patikabari','741126','',1,'','19')
+2023-11-12 10:59:36,400480Y71X,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00273-2324',4,'Jharna Biswas Shambhunagar','Jharna Biswas','Female','8343062406','','','','','Shambhu Nagar','','','15','Barnia','741156','',1,'','19')
+2023-11-27 05:01:27,2463H45053,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00292-2324',4,'Swapan Bala Jugpur No 6','Swapan Bala','Male','9674429470','','','','','jugpur no-6','','','15','Jugpur Colony','741126','',1,'','19')
+2023-12-25 03:45:47,95X5H4Y7YX,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00313-2324',4,'Anjali Kundu Das Saw Mile','Anjali Kundu','Female','7811889478','','','','','Das Sawmile','','','15',' Bethuadahari','741126','',1,'','19')
+2023-12-30 12:58:38,H9X790099A,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00315-2324',4,'Pushpa Bepari Radhanagar Coloni','Pushpa Bepari','Female','','','','','','Rradhanagar Coloni','','','15','Radhanagar Coloni','741126','',1,'','19')
+2024-02-06 03:44:35,9YX478A124,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00364-2324',4,'Rama Sarkar Bamondanga','Rama Sarkar','Female','7866868896','','','','','Bamondanga','','','15','Sonadanga','741126','',1,'','19')
+2024-02-08 06:40:11,7H55XA4105,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00366-2324',4,'Ratna Sarkar Radhanagar Coloni','Ratna Sarkar','Female','8653822212','','','','','Rradhanagar Coloni','','','15','Radhanagar Coloni','741126','',1,'','19')
+2024-03-16 12:13:51,46H3705A6Y,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00398-2324',4,'Dipa Mondal Satteya Pur','Dipa Mondal','Female','7864863632','','','','','Satteya pur','','','15',' Bethuadahari','741126','',1,'','19')
+2024-04-16 08:05:05,A52X882729,purchase_model,insert_opening,1062insert into person (
+                   person_id
+                  ,person_cat_id
+                  ,person_name
+                  ,billing_name
+                  ,sex
+                  ,mobile_no
+                  ,phone_no
+                  ,email_id
+                  ,aadhar_no
+                  ,pan_no
+                  ,address1
+                  ,address2
+                  ,city
+                  ,district_id
+                  ,post_office
+                  ,pin
+                  ,gst_number
+                  ,inforce
+                  ,area
+                  ,state_id
+                ) VALUES ('C-00020-2425',4,'Anuradha Sarkar Jugpur No 1','Anuradha Sarkar','Female','7001813475','','','','','Jugpur No 1','','','15','Jugpur Colony','741126','',1,'','19')
