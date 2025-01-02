@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/overwrite.css">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" />
-
+    <link href="node_modules/angular-xeditable/dist/css/xeditable.min.css" rel="stylesheet" />
     <script src="jquery-3.3.1/jquery-3.3.1.min.js"></script>
 
 

@@ -6,9 +6,9 @@ class Sale extends CI_Controller {
     function __construct() {
         parent::__construct();
         $this->load->library('session');
-        $this -> load -> model('person');
-        $this -> load -> model('sale_model');
-        $this -> is_logged_in();
+        $this->load->model('person');
+        $this->load->model('sale_model');
+        $this->is_logged_in();
     }
     function is_logged_in() {
 		$is_logged_in = $this -> session -> userdata('is_logged_in');
@@ -23,7 +23,7 @@ class Sale extends CI_Controller {
         echo json_encode($report_array);
     }
 
-
+    // bill1 functions and html forms code
     public function angular_view_sale(){
         ?>
                 <style type="text/css">
@@ -145,13 +145,16 @@ class Sale extends CI_Controller {
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs nav-justified indigo" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link " data-toggle="tab" href="#" role="tab" ng-style="tab==1 && selectedTab" ng-click="setTab(1)"><span class="glyphicon glyphicon-shopping-cart"></span>&nbspStart Sale</a>
+                        <a class="nav-link " data-toggle="tab" href="#" role="tab" ng-style="tab==1 && selectedTab" ng-click="setTab(1)"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Start Sale</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-style="tab==2 && selectedTab" ng-click="setTab(2)"><span class="glyphicon glyphicon-file"></span>Show Sale Details</a>
+                        <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-style="tab==2 && selectedTab" ng-click="setTab(2)"><span class="glyphicon glyphicon-list-alt"></span>Show Sale Details</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-click=""><span class="glyphicon glyphicon-file"></span>Show Bill</a>
+                        <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-style="tab==3 && selectedTab" ng-click=""><span class="glyphicon glyphicon-file"></span>Show Bill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-style="tab==4 && selectedTab" ng-click=""><span class="glyphicon glyphicon-edit"></span>Edit Bill</a>
                     </li>
                 </ul>
                 <!-- Tab panels -->
@@ -178,12 +181,16 @@ class Sale extends CI_Controller {
                                             </div>
 
                                             <ul id="customer-details" ng-show="saleMaster.customer" style="margin-top: 0px;padding-top: 0px;padding-left: 0px;font-size: 12px;line-height:17px">
-                                                <li ng-show="saleMaster.customer.billing_name.length>0">Name: {{saleMaster.customer.billing_name}}</li>
-                                                <li ng-show="saleMaster.customer.address1.length>0">{{saleMaster.customer.address1}}</li>
+                                                <li ng-show="saleMaster.customer.billing_name.length>0"><span class="glyphicon glyphicon-user"></span> {{saleMaster.customer.billing_name}}</li>
+                                                <li>
+                                                    <span class="glyphicon glyphicon-earphone"></span> {{saleMaster.customer.mobile_no || 'empty'}}
+                                                </li>
+                                                <li ng-show="saleMaster.customer.address1.length>0"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                {{saleMaster.customer.address1}}</li>
                                                 <li ng-show="saleMaster.customer.city.length>0 || saleMaster.customer.post_office.length>0">
                                                     {{saleMaster.customer.city}}, {{saleMaster.customer.post_office}}
                                                 </li>
-                                                <li ng-show="aleMaster.customer.district_name.length>0 || saleMaster.customer.state_name.length>0">
+                                                <li ng-show="saleMaster.customer.district_name.length>0 || saleMaster.customer.state_name.length>0">
                                                     Dist. - {{saleMaster.customer.district_name}}, {{saleMaster.customer.state_name}}
                                                 </li>
                                                 <li ng-show="saleMaster.customer.gst_number.length>0">GST: {{saleMaster.customer.gst_number}}</li>
@@ -436,22 +443,6 @@ class Sale extends CI_Controller {
                                             </tfoot>
                                         </table>
                                         </div>
-<!--                                        <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12" ng-show="saleMaster.customer" style="background-color: #99CCFF;padding-left: 150px">-->
-<!--                                                <div class="form-group">-->
-<!--                                                    <label  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">Transaction Type</label>-->
-<!--                                                    <div class="controls col-lg-2 col-md-2 col-sm-2 col-xs-2">-->
-<!--                                                        <select required-->
-<!--                                                                ng-model="saleMaster.transaction_mode"-->
-<!--                                                                ng-options="mode for mode in transactionMode">-->
-<!--                                                        </select>-->
-<!--                                                    </div>-->
-<!--                                                    <label  class="col-lg-2 col-md-2 col-sm-2 col-xs-2" ng-hide="saleMaster.transaction_mode=='cash'">Card Number</label>-->
-<!--                                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">-->
-<!--                                                        <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-control"  ng-model="saleMaster.card_number">-->
-<!--                                                    </div>-->
-<!---->
-<!--                                                </div>-->
-<!--                                        </div>-->
                                         <br>
                                         <div class="form-group">
                                             <div class="controls col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -463,11 +454,10 @@ class Sale extends CI_Controller {
                                 </div>
                             </form>
 
-<!--                                <pre>saleMaster = {{saleMaster | json}}</pre>-->
-
                             </div>
                         </div>
                     </div>
+                    <!-- <pre>saleMaster = {{saleMaster | json}}</pre>-->
                     <!--/.Panel 1-->
                     <!--Panel 2-->
                     <div ng-show="isSet(2)">
@@ -475,11 +465,11 @@ class Sale extends CI_Controller {
                         <div id="sales-list-table-div">
                             <table cellpadding="0" cellspacing="0" class="table table-bordered">
                                 <tr>
-                                    <th>SL></th>
-                                    <th>Date></th>
+                                    <th>SL</th>
+                                    <th>Date</th>
                                     <th ng-click="changeSorting('person_id')">ID<i class="glyphicon" ng-class="getIcon('person_id')"></i></th>
                                     <th ng-click="changeSorting('person_name')">Name<i class="glyphicon" ng-class="getIcon('person_name')"></i></th>
-                                    <th ng-click="changeSorting('mobile_no')">Mobile<i class="glyphicon" ng-class="getIcon('mobile_no')"></i></th>
+                                    <th ng-click="changeSorting('mobile_no')">Total<i class="glyphicon" ng-class="getIcon('mobile_no')"></i></th>
                                     <th>Action</th>
                                 </tr>
                                 <tbody ng-repeat="sale in allSaleList | filter : searchItem  | orderBy:sort.active:sort.descending">
@@ -488,8 +478,12 @@ class Sale extends CI_Controller {
                                     <td>{{sale.sale_date  | date : "dd-MM-y" }}</td>
                                     <td>{{sale.bill_number}}</td>
                                     <td>{{sale.customer_name}}</td>
-                                    <td class="text-right">{{sale.total_bill_amount}}</td>
-                                    <td style="padding-left: 20px;" ng-click="showSaleBill(sale)"><a href="#"><i class=" glyphicon glyphicon-share"></i></a></td>
+                                    <td class="text-right">{{sale.total_bill_amount | number:2}}</td>
+                                    <td style="padding-left: 20px;">
+                                        <a href="#" ng-click="showSaleBill(sale)"><i class=" glyphicon glyphicon-eye-open"></i></a>
+                                        &nbsp;
+                                        <a href="#" ng-click="sendToEditBillPage(sale)"><i class="glyphicon glyphicon-edit"></i></a>
+                                    </td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -752,6 +746,284 @@ class Sale extends CI_Controller {
 <!--                        <pre>billMaster={{billMaster | json}}</pre>-->
                     </div>
                     <!--/.Panel 3-->
+
+
+
+                    <!--Panel 4-->
+                    <!-- By Sreeparna on 23.10.2024 -->
+
+                    <div ng-show="isSet(4)">
+                        <div id="my-tab-4">
+                            <form name="billEditForm" class="form-horizontal" id="bill-edit-form">
+                                <div class="row">
+                                    <h5 class="text-center" style="font-weight: bold;font-size: large;">Edit Bill</h5>
+                                    <table class="table" id="show-bill-customer-table">
+                                        <tbody>
+                                            <tr>
+                                                <td >
+                                                    <strong>Customer</strong><br>
+                                                    <ul id="print-customer-details-ul">
+                                                        <li>{{billMaster.customer_billing_name}}</li>
+                                                        <li>{{billMaster.address1}}</li>
+                                                        <li ng-show="billMaster.address2.length>0">{{billMaster.address2}}</li>
+                                                        <li>{{billMaster.city}}</li>
+                                                        <li>{{billMaster.district_name}}</li>
+                                                        <li ng-show="billMaster.post_office.length>0">Post: {{billMaster.post_office}}</li>
+                                                        <li ng-show="billMaster.pin.length>0">PIN: {{billMaster.pin}}</li>
+                                                        <li ng-show="billMaster.pan_no.length>0">PAN: {{billMaster.pan_no}}</li>
+                                                        <li ng-show="billMaster.gst_number.length>0">GST: {{billMaster.gst_number}}</li>
+                                                        <li>{{billMaster.mobile_no}}</li>
+                                                        <li>{{billMaster.phone_no}}</li>
+                                                    </ul>
+                                                </td>
+                                                <td >
+                                                    <ul id="print-sale-details-ul">
+                                                        <li>Bill Number</li>
+                                                        <li>Date </li>
+                                                        <li>O.Date</li>
+                                                        <li ng-show="billMaster.memo_no.length>0">Memo No</li>
+                                                        <li ng-show="billMaster.order_no.length>0">Order No</li>
+                                                        <li>VAT</li>
+                                                        <li>GST</li>
+                                                        <li>BIS CM/L</li>
+                                                        <li>HM/C</li>
+                                                        <li>PAN</li>
+                                                    </ul>
+                                                </td>
+                                                <td style="padding-left: 0px">
+                                                    <ul id="print-sale-details-ul">
+                                                        <li>:&nbsp;{{billMaster.bill_number}}</li>
+                                                        <li>:&nbsp;{{billMaster.sale_date  | date : "dd-MM-y" }}</li>
+                                                        <li>:&nbsp;{{billMaster.order_date | date : "dd-MM-y" }}</li>
+                                                        <li ng-show="billMaster.memo_no.length>0">:&nbsp;{{billMaster.memo_no}}</li>
+                                                        <li ng-show="billMaster.order_no.length>0">:&nbsp;{{billMaster.order_no}}</li>
+                                                        <li>:&nbsp;19778268088</li>
+                                                        <li>:&nbsp;19BJXPS7073N1ZT</li>
+                                                        <li>:&nbsp;5427667</li>
+                                                        <li>:&nbsp;5190136611</li>
+                                                        <li>:&nbsp;BJXPS7073N</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>                                
+
+                                <div class="row" id="bill-edit-div">
+                                    <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="table-responsive" style="background-color: #6f3d3d4a;">
+                                             <table class="table" id="sale-table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>P.Group</th>
+                                                        <th>Product</th>
+                                                        <th></th>
+                                                        <th>Quality</th>
+                                                        <th>Quantity</th>
+                                                        <th>G.wt</th>
+                                                        <th>Net.wt</th>
+                                                        <th>Rate</th>
+                                                        <th>Amount</th>
+                                                        <th>Mk.ch.Type</th>
+                                                        <th>Mk.Rt</th>
+                                                        <th>Mk.Ch</th>
+                                                        <th>Oth.Ch</th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <select
+                                                                ng-model="billDetailsEditProductObj.productGroup"
+                                                                ng-options="pGroup as pGroup.group_name for pGroup in productGroupList" ng-change="getProductByGroupForBillEdit();setGstRateForEditBill()">
+                                                            </select>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-group">
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" >
+                                                                    <select
+                                                                            ng-model="billDetailsEditProductObj.product"
+                                                                            ng-options="pName as pName.product_name for pName in productListForEditBill"
+                                                                            ng-change="setProductQualityForBillEdit()">
+                                                                            <option value="">select product</option> 
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <span ng-show="billDetailsEditProductObj.productGroup">
+                                                                <a href="#">
+                                                                    <span ng-click="addProductInEditBill()" class="glyphicon glyphicon-plus"ng-show="!addProductDivInEditBill"></span>
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span ng-click="minimizeAddProductDiv()" class="glyphicon glyphicon-minus" ng-show="addProductDivInEditBill"></span>
+                                                                </a>
+                                                            </span>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#"  ng-click="showQuality=!showQuality" ng-init="showQuality=false" >{{billDetailsEditProductObj.quality}}</a>
+                                                            <div class="form-group" ng-show="showQuality">
+                                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" >
+                                                                    <select
+                                                                            ng-change="showQuality = !showQuality"
+                                                                            ng-model="billDetailsEditProductObj.quality"
+                                                                            ng-options="quality.quality as quality.quality for quality in productQualityList ">
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+
+                                                        <td><input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" numbers-only ng-model="billDetailsEditProductObj.quantity" ng-keyup="setAmountForEditBill()"></td>
+                                                        <td>
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" gold-decimal-places numeric-value  ng-keyup="" ng-model="billDetailsEditProductObj.gross_weight" ng-change="setGstRateForEditBill()">
+                                                        </td>
+                                                        <td>
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" gold-decimal-places numeric-value ng-keyup="setAmountForEditBill(); getMakingChargeForEditBill()" ng-model="billDetailsEditProductObj.net_weight">
+                                                        </td>
+                                                        <td>
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" numeric-value currency-decimal-places ng-keyup="setAmountForEditBill()" ng-model="billDetailsEditProductObj.rate">
+                                                        </td>
+                                                        <td>
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places disabled  ng-model="billDetailsEditProductObj.amount | number:2">
+                                                        </td>
+                                                        <td>
+                                                            <select ng-model="billDetailsEditProductObj.making_charge_type" ng-change="getMakingChargeForEditBill()">
+                                                                <option value="1">Normal</option>
+                                                                <option value="2">Fixed</option>
+                                                            </select>
+
+                                                        </td>
+                                                        <td>
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places numeric-value ng-model="billDetailsEditProductObj.making_rate" ng-change="getMakingChargeForEditBill()">
+                                                        </td>
+                                                        <td>
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" ng-model="billDetailsEditProductObj.making_charge | number:2" disabled ng-change="setGstRateForEditBill()">
+                                                        </td>
+                                                        <td>
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places numeric-value ng-model="billDetailsEditProductObj.other_charge" ng-change="billDetailsEditProductObj.other_charge=roundNumber(billDetailsEditProductObj.other_charge)">
+                                                        </td>
+
+                                                        <td><input ng-disabled="btnSubmitDisable" type="button" value="Add" ng-click="changeProductInExistingBill(billDetailsEditProductObj);"></td>
+                                                    </tr>
+                                                </tbody>
+                                                 <tfoot>
+                                                 <tr>
+                                                     <td colspan="2" class="text-right"><growl-notification ng-if="!billDetails.product && billDetails.productGroup && billDetails.amount">!! Select Product</growl-notification></td>
+                                                     <td colspan="10" class="text-right"><growl-notification ng-if="isDuplicateDataInEditBill">!! Duplicate entry</growl-notification></td>
+                                                 </tr>
+                                                 </tfoot>
+
+                                            </table>
+                                        </div>
+                                        <div class="table-responsive" style="background-color: #c4abc4;">
+                                            <table class="table" id="sale-details-list-table">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">SL</th>
+                                                <th class="text-center">Product</th>
+                                                <th class="text-center">Quality</th>
+                                                <th class="text-center">Quantity</th>
+                                                <th class="text-center">G.wt</th>
+                                                <th class="text-center">Net.wt</th>
+                                                <th class="text-center">Rate</th>
+                                                <th class="text-center">Amt</th>
+                                                <th class="text-center">Mk.Rt(g)</th>
+                                                <th class="text-center">Mk.Chg</th>
+                                                <th class="text-center">Oth.Chg</th>
+                                                <th class="text-center">SGST</th>
+                                                <th class="text-center">CGST</th>
+                                                <th class="text-center">IGST</th>
+                                                <th class="text-center">Total amt</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody ng-repeat="s in billDetails">
+                                            <tr>
+                                                <td class="text-right">{{$index+1}}</td>
+                                                <td class="text-center">{{s.product_name}}</td>
+                                                <td class="text-center">{{s.product_quality}}</td>
+                                                <td class="text-right">{{s.quantity}}&nbsp;</td>
+                                                <td class="text-right"> {{s.gross_weight | number: 3}}</td>
+                                                <td class="text-right">{{s.net_weight | number: 3}}</td>
+                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.rate}}</td>
+                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.sale_value | number:2}}</td>
+                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.making_charge_type=="2"?"NIL":s.making_rate}}</td>
+                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.making_charge | number:2}}</td>
+                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.other_charge | number:2}}</td>
+                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.sgst_value | number:2}}</td>
+                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.cgst_value | number:2}}</td>
+                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.igst_value | number:2}}</td>
+                                                <td class="text-right"><i class="fa fa-inr"></i> {{roundNumber(s.total_amount,2) | number: 2}}</td>
+                                                <td> 
+                                                    <!-- <a href="#" ng-hide="btnSubmitDisable" data-ng-click="removeRow($index)">
+                                                    <span class="glyphicon glyphicon-trash"></span>
+                                                     
+                                                    </a> -->
+                                                    <button type="button" class="btn btn-default btn-sm" ng-hide="btnSubmitDisable" data-ng-click="removeRowFromEditBillTable($index)">
+                                                        <span class="glyphicon glyphicon-trash"></span> 
+                                                    </button>
+
+                                                    <button type="button" class="btn btn-default btn-sm" ng-hide="btnSubmitDisable" data-ng-click="populateBillEditDataToForm($index)">
+                                                        <span class="glyphicon glyphicon-edit"></span> 
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                            <tfoot>
+                                            <tr>
+                                                <td colspan="8" class="text-center">Total:</td>
+                                                <td  class="text-right">{{showTableFooter.totalQuantity}}</td>
+                                                <td  class="text-right">{{showTableFooter.totalMakingCharge | number:2}}</td>
+                                                <td  class="text-right">{{saleTableFooter[0].totalOtherCharge | number:2}}</td>
+                                                <td  class="text-right">{{saleTableFooter[0].totalSgst | number:2}}</td>
+                                                <td  class="text-right">{{saleTableFooter[0].totalCgst | number:2}}</td>
+                                                <td  class="text-right">{{saleTableFooter[0].totalIgst | number:2}}</td>
+                                                <td  class="text-right">{{showTableFooter.grandTotalAmount | number:2}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="14" class="text-right">Round:</td>
+
+                                                <td  class="text-right">{{billMaster.roundedOff |number:2}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="14" class="text-right">Grand Total:</td>
+
+                                                <td  class="text-right">{{(showTableFooter.grandTotalAmount + billMaster.roundedOff) | number:2}}</td>
+                                            </tr>
+                                            </tfoot>
+                                        </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group" style="margin-top:5px">
+                                    <div class="controls col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <input type="button" class="btn pull-right" ng-disabled="false" ng-click="updateBill(billMaster,billDetails)" value="Update"/>
+                                    </div>
+                                </div>
+
+                                <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                        <pre>billDetailsEditProductObj = {{billDetailsEditProductObj | json}}</pre>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                        <pre>billMaster = {{billMaster | json}}</pre>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                        <pre>billDetails = {{billDetails | json}}</pre>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                        <pre>showTableFooter = {{showTableFooter | json}}</pre>
+                                    </div>
+                                </div>
+                            </form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Panel 4-->
+
+
                 </div>
             </div>
 
@@ -760,6 +1032,10 @@ class Sale extends CI_Controller {
 
         <?php
     }
+
+
+                                 // BILL 2 FUNCTIONS & HTML FORMS CODE
+
     public function angular_view_bill2(){
         ?>
         <style type="text/css">
@@ -866,10 +1142,13 @@ class Sale extends CI_Controller {
                 <a class="nav-link " data-toggle="tab" href="#" role="tab" ng-click="setTab(1)"><span class="glyphicon glyphicon-shopping-cart"></span>&nbspStart Sale</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-click=""><span class="glyphicon glyphicon-file"></span>Show Sale Details</a>
+                <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-click=""><span class="glyphicon glyphicon-list-alt"></span>Show Sale Details</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-click=""><span class="glyphicon glyphicon-file"></span>Show Bill</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-click=""><span class="glyphicon glyphicon-edit"></span>Edit Bill</a>
             </li>
         </ul>
         <!-- Tab panels -->
@@ -895,13 +1174,14 @@ class Sale extends CI_Controller {
                     </div>
 
                     <ul id="bill2-customer-details" ng-show="bill2SaleMaster.customer" style="margin-top: 0px;padding-top: 0px;padding-left: 0px;font-size: 12px;line-height:17px">
-                        <li ng-show="bill2SaleMaster.customer.billing_name.length>0">Name: {{bill2SaleMaster.customer.billing_name}}</li>
-                        <li ng-show="bill2SaleMaster.customer.address1.length>0">{{bill2SaleMaster.customer.address1}}</li>
+                        <li ng-show="bill2SaleMaster.customer.billing_name.length>0"><span class="glyphicon glyphicon-user"></span> {{bill2SaleMaster.customer.billing_name}}</li>
+                        <li><span class="glyphicon glyphicon-earphone"></span> {{bill2SaleMaster.customer.mobile_no || 'N/A'}}
+                        <li ng-show="bill2SaleMaster.customer.address1.length>0"><i class="fa fa-map-marker" aria-hidden="true"></i> {{bill2SaleMaster.customer.address1}}</li>
                         <li ng-show="bill2SaleMaster.customer.city.length>0 || " purchaseMaster.vendor.post_office>0
                             {{bill2SaleMaster.customer.city}}, {{purchaseMaster.vendor.post_office}}
                         </li>
-                        <li ng-show="bill2SaleMaster.customer.district_name.length>0 || saleMaster.customer.state_name.length>0">
-                            Dist. - {{bill2SaleMaster.customer.district_name}}, {{saleMaster.customer.state_name}}</li>
+                        <li ng-show="bill2SaleMaster.customer.district_name.length>0 || bill2SaleMaster.customer.state_name.length>0">
+                            Dist. - {{bill2SaleMaster.customer.district_name}}, {{bill2SaleMaster.customer.state_name}}</li>
                         <li ng-show="bill2SaleMaster.customer.gst_number.length>0">GSTIN: {{bill2SaleMaster.customer.gst_number}}</li>
                     </ul>
                 </div>
@@ -922,11 +1202,11 @@ class Sale extends CI_Controller {
                     <div class="form-group">
                         <label  class="control-label col-lg-3 col-md-3 col-sm-3 col-xs-3">Order Date</label>
                         <div class="controls col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <input type="text" ng-pattern="/\d\d/\d\d/\d\d\d\d/"  id=FromDate" name="orderDate"   ng-model="bill2SaleMaster.order_date"  required/>
+                            <input type="text" ng-pattern="/\d\d/\d\d/\d\d\d\d/"  id="FromDate" name="orderDate"   ng-model="bill2SaleMaster.order_date"  required/>
                         </div>
                         <label  class="control-label col-lg-3 col-md-3 col-sm-3 col-xs-3">Sales Date</label>
                         <div class="controls col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <input type="text" ng-pattern="/\d\d/\d\d/\d\d\d\d/" id=FromDate" name="salesDate"  ng-model="bill2SaleMaster.sales_date"  required/>
+                            <input type="text" ng-pattern="/\d\d/\d\d/\d\d\d\d/" id="FromDate" name="salesDate"  ng-model="bill2SaleMaster.sales_date"  required/>
                         </div>
                     </div>
 
@@ -1014,7 +1294,7 @@ class Sale extends CI_Controller {
                                         <select
                                             ng-model="bill2SaleDetails.product"
                                             ng-options="pName as pName.product_name for pName in productByGroup"
-                                            ng-change="setProductQuality()"
+                                            ng-change="setProductQuality()">
                                         </select>
 
 
@@ -1165,11 +1445,11 @@ class Sale extends CI_Controller {
             <div id="sales-list-table-div">
                 <table cellpadding="0" cellspacing="0" class="table table-bordered">
                     <tr>
-                        <th>SL></th>
-                        <th>Date></th>
+                        <th>SL</th>
+                        <th>Date</th>
                         <th ng-click="changeSorting('person_id')">ID<i class="glyphicon" ng-class="getIcon('person_id')"></i></th>
                         <th ng-click="changeSorting('person_name')">Name<i class="glyphicon" ng-class="getIcon('person_name')"></i></th>
-                        <th ng-click="changeSorting('mobile_no')">Mobile<i class="glyphicon" ng-class="getIcon('mobile_no')"></i></th>
+                        <th ng-click="changeSorting('mobile_no')">Total<i class="glyphicon" ng-class="getIcon('mobile_no')"></i></th>
                         <th>Action</th>
                     </tr>
                     <tbody ng-repeat="sale in allSaleListFromBill2 | filter : searchItem  | orderBy:sort.active:sort.descending">
@@ -1179,7 +1459,7 @@ class Sale extends CI_Controller {
                         <td>{{sale.bill2_number}}</td>
                         <td>{{sale.customer_name}}</td>
                         <td class="text-right">{{sale.total_bill_amount}}</td>
-                        <td style="padding-left: 20px;" ng-click="showSaleBill2(sale)"><a href="#"><i class=" glyphicon glyphicon-share"></i></a></td>
+                        <td style="padding-left: 20px;" ng-click="showSaleBill2(sale)"><a href="#"><i class=" glyphicon glyphicon-eye-open"></i></a></td>
                     </tr>
                     </tbody>
                 </table>
@@ -1512,6 +1792,15 @@ class Sale extends CI_Controller {
         $report_array['records']=$result;
         echo json_encode($report_array,JSON_NUMERIC_CHECK);
 
+    }
+
+    function update_bill_one(){
+        $post_data =json_decode(file_get_contents("php://input"), true);
+        $bill_master=(object)$post_data['bill_master'];
+        $bill_details=(object)$post_data['bill_details'];
+        $result=$this->sale_model->update_bill_one_from_db($bill_master,$bill_details);
+        $report_array['records']=$result;
+        echo json_encode($report_array,JSON_NUMERIC_CHECK);
     }
 }
 ?>

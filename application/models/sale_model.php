@@ -6,13 +6,13 @@ class sale_model extends CI_Model {
         $this->load->helper('huiui_helper');
     }
 
-   function select_inforce_products(){
+    function select_inforce_products(){
        $sql="select * from product
         inner join product_group ON product_group.group_id = product.group_id
         where product.inforce=1";
        $result = $this->db->query($sql,array());
        return $result;
-   }
+    }
 
     //Insert Data into bill_master and bill
 
@@ -130,7 +130,7 @@ class sale_model extends CI_Model {
             $this->db->query("ROLLBACK");
         }catch(Exception $e){
             $err=(object) $this->db->error();
-            $return_array['error']=create_log($err->code,$this->db->last_query(),'purchase_model','insert_opening',"log_file.csv");
+            $return_array['error']=create_log($err->code,$this->db->last_query(),'sale_model','insert_new_sale',"log_file.csv");
             // $return_array['error']=mysql_error;
             $return_array['success']=0;
             $return_array['message']=$err->message;
@@ -164,6 +164,7 @@ class sale_model extends CI_Model {
             , customer.pin
             , customer.pan_no
             , customer.area
+            , customer.state_id
             , employee.person_name as employee_name
             , districts.district_name
             from bill_master
@@ -184,6 +185,7 @@ class sale_model extends CI_Model {
                 $sql="select bill_details_id
                 ,bill_number
                 ,product_quality
+                ,product_group_id
                 ,gst_rate
                 ,quantity
                 ,gross_weight
@@ -202,11 +204,13 @@ class sale_model extends CI_Model {
                 ,round(sale_value+making_charge+other_charge,2) as taxable_amount
                 ,round(sale_value+making_charge+other_charge+sgst_value+cgst_value+igst_value,2) as total_amount
                 ,hsn_code
+                ,product_id
                 ,product_name
                 from(select 
                         bill_details.bill_details_id
                         , bill_details.bill_number
                         , bill_details.product_quality
+                        , product_group.group_id as product_group_id
                         , product_group.gst_rate
                         , bill_details.quantity
                         , bill_details.gross_weight
@@ -225,6 +229,7 @@ class sale_model extends CI_Model {
                        ,round(((bill_details.net_weight*bill_details.rate)+if(bill_details.making_charge_type=2,bill_details.making_rate,bill_details.making_rate*bill_details.net_weight)+bill_details.other_charge) * bill_details.igst,2) as igst_value
                        
                         , product_group.hsn_code
+                        , product.product_id
                         , product.product_name
                         from bill_details 
                         inner join product ON product.product_id = bill_details.product_id
@@ -509,6 +514,102 @@ from bill_details where not isnull(other_charge_for) and bill_number=? and lengt
         }
 
     }
-}//final
+
+    function update_bill_one_from_db($billMaster,$billDetailsToSave){
+        $return_array=array();
+        try{
+            //$this->db->query("START TRANSACTION");
+            $this->db->trans_start();
+            $bill_number = $billMaster->bill_number;
+
+            $deleteDetailsSql = "delete from bill_details where bill_number like ?";
+
+            $result = $this->db->query($deleteDetailsSql, array($bill_number));
+
+            if($result==FALSE){
+                throw new Exception('Deleting bill old details');
+            }
+
+            $insertNewDetailsSql = "insert into bill_details (
+                bill_details_id
+               ,bill_number
+               ,product_id
+               ,product_quality
+               ,quantity
+               ,gross_weight
+               ,net_weight
+               ,rate
+               ,making_charge_type
+                 ,making_rate
+               ,other_charge
+               ,other_charge_for
+               ,sgst
+               ,cgst
+               ,igst
+             ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+
+            foreach($billDetailsToSave as $index=>$value){
+                $row=(object)$value;
+                $result = $this->db->query($insertNewDetailsSql, array(
+                  $bill_number . '-' . ($index+1)
+                , $bill_number
+                ,$row->product_id
+                ,$row->product_quality
+                ,$row->quantity
+                ,$row->gross_weight
+                ,$row->net_weight
+                ,$row->rate
+                ,$row->making_charge_type
+                ,$row->making_rate
+                ,$row->other_charge
+                ,''
+                ,$row->sgst
+                ,$row->cgst
+                ,$row->igst
+                ));
+
+                if($result==FALSE){
+                    throw new Exception('error adding bill_details');
+                }
+
+                $updateBillMasterSql = "update bill_master set roundedOff = ? where bill_number = ?";
+
+                $result = $this->db->query($updateBillMasterSql, array($billMaster->roundedOff, $bill_number));
+
+                if($result==FALSE){
+                    throw new Exception('Updating bill master');
+                }
+            }
+            $this->db->trans_complete();
+
+            $return_array['success']=1;
+            $return_array['bill_number'] = $bill_number;
+            $return_array['message']='Successfully updated';
+
+        }
+        catch(mysqli_sql_exception $e){
+            
+            $err=(object) $this->db->error();
+            $return_array['error']=create_log($err->code,$this->db->last_query(),'sale_model','update_bill_one_from_db',"log_file.csv");
+            $return_array['success']=0;
+            $return_array['message']='test';
+            $this->db->query("ROLLBACK");
+
+        }
+        catch(Exception $e){
+            $err=(object) $this->db->error();
+            $return_array['error']=create_log($err->code,$this->db->last_query(),'sale_model','update_bill_one_from_db',"log_file.csv");
+            // $return_array['error']=mysql_error;
+            $return_array['success']=0;
+            $return_array['message']=$err->message;
+            $this->db->query("ROLLBACK");
+        }
+
+        return (object)$return_array;
+    }
+
+
+}//End of Model Class
+
 
 ?>

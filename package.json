@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "angular-xeditable": "^0.10.2",
+    "moment": "^2.30.1"
+  }
+}

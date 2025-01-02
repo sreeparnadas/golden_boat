@@ -7,7 +7,7 @@ var base_url=urlAux[0]+'/'+urlAux[1]+'/'+urlAux[2]+'/'+urlAux[3]+'/';
 var site_url=urlAux[0]+'/'+urlAux[1]+'/'+urlAux[2]+'/'+urlAux[3]+'/index.php/';
 var project_url=base_url;
 // var app = angular.module("myApp", ["ui.bootstrap"]);
-var app = angular.module("myApp", ["ngRoute","ui.autocomplete","ui.bootstrap"]);
+var app = angular.module("myApp", ["ngRoute","ui.autocomplete","ui.bootstrap","xeditable"]);
 app.config(function($routeProvider) {
     $routeProvider
         .when("/", {
@@ -256,6 +256,10 @@ app.run(function($rootScope,$timeout) {
         // printWindow.close();
     };
 });
+
+app.run(['editableOptions', function(editableOptions) {
+    editableOptions.theme = 'bs3'; // bootstrap3 theme. Can be also 'bs4', 'bs2', 'default'
+}]);
 
 app.filter('AmountConvertToWord', function() {
     return function(amount) {

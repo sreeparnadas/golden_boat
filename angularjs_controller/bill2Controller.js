@@ -61,7 +61,8 @@ app.controller("bill2Ctrl", function ($scope,$http,$filter,$rootScope, $location
     $scope.loadAllCustomers();
 
     $scope.bill2SearchCustomerByKey=function () {
-        $scope.bill2CustomerListByKey=alasql("select * from ? where person_name like '"+$scope.bill2SaleMaster.customerSearchKey+"%'",[$scope.bill2CustomerList]);
+        var searchKey = $scope.bill2SaleMaster.customerSearchKey;
+        $scope.bill2CustomerListByKey=alasql("select * from ? where person_name like '"+searchKey + "%' or mobile_no like '"+ searchKey + "%' or phone_no like '" + searchKey + "%'",[$scope.bill2CustomerList]);
         $scope.bill2SaleMaster.customer=$scope.bill2CustomerListByKey[0];
 
     };

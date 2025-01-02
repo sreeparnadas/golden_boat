@@ -261,7 +261,7 @@ class Vendor extends CI_Controller {
                         <div id="vendor-table-div">
                             <table cellpadding="0" cellspacing="0" class="table table-bordered">
                                 <tr>
-                                    <th>SL></th>
+                                    <th>SL</th>
                                     <th ng-click="changeSorting('person_id')">ID<i class="glyphicon" ng-class="getIcon('person_id')"></i></th>
                                     <th ng-click="changeSorting('person_name')">Name<i class="glyphicon" ng-class="getIcon('person_name')"></i></th>
                                     <th ng-click="changeSorting('mobile_no')">Mobile<i class="glyphicon" ng-class="getIcon('mobile_no')"></i></th>

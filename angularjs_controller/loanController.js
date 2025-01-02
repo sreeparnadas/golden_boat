@@ -58,9 +58,9 @@ app.controller("loanCtrl", function ($scope,$http,$filter,$rootScope, $location,
     };//end of loadCustomer
     $scope.loadAllCustomers();
     $scope.searchCustomerByKey=function () {
-        $scope.customerListByKey=alasql("select * from ? where person_name like '"+$scope.loanInward.customerSearchKey+"%'",[$scope.customerList]);
+        var searchKey = $scope.loanInward.customerSearchKey;
+        $scope.customerListByKey=alasql("select * from ? where person_name like '"+ searchKey +"%' or mobile_no like '"+ searchKey + "%' or phone_no like '" + searchKey + "%'",[$scope.customerList]);
         $scope.loanInward.customer=$scope.customerListByKey[0];
-
     };
 
     $scope.dd = new Date().getDate();
@@ -142,7 +142,6 @@ app.controller("loanCtrl", function ($scope,$http,$filter,$rootScope, $location,
         data: {}
         ,headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
     }).then(function(response){
-        console.log(response.data.records);
         $scope.loanDetailsList=response.data.records;
     });
 
@@ -164,18 +163,21 @@ app.controller("loanCtrl", function ($scope,$http,$filter,$rootScope, $location,
     };
 
     $scope.showLoanDetails=function(loan){
-        $scope.updateableLoanIndex=$scope.loanDetailsList.indexOf(loan);
-        $scope.tab=4;
-        $scope.showLoanDetailsById(loan.person_id);
+        if(loan){
+            $scope.updateableLoanIndex=$scope.loanDetailsList.indexOf(loan);
+            $scope.tab=4;
+            $scope.showLoanDetailsById(loan.person_id);
+        }
     };
 
     $scope.getPreviousTotal=function (loan) {
-         var x=$scope.customerLoanDetails.indexOf(loan);
-
-         var i,sum=0;
-         for(i=0;i<=x;i++){
-            sum=sum+$scope.customerLoanDetails[i].outward_amount-$scope.customerLoanDetails[i].inward_amount;
-         }
+        var i,sum=0;
+        if(loan){
+            var x=$scope.customerLoanDetails.indexOf(loan);
+            for(i=0;i<=x;i++){
+               sum=sum+$scope.customerLoanDetails[i].outward_amount-$scope.customerLoanDetails[i].inward_amount;
+            }
+        }
       return sum;
     };
 

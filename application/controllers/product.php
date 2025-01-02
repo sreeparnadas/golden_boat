@@ -200,7 +200,7 @@ class Product extends CI_Controller {
                         <div id="vendor-table-div">
                             <table cellpadding="0" cellspacing="0" class="table table-bordered">
                                 <tr>
-                                    <th>SL></th>
+                                    <th>SL</th>
                                     <th ng-click="changeSorting('product_id')">ID<i class="glyphicon" ng-class="getIcon('product_id')"></i></th>
                                     <th ng-click="changeSorting('product_name')">Name<i class="glyphicon" ng-class="getIcon('product_name')"></i></th>
                                     <th ng-click="changeSorting('group_name')">Group<i class="glyphicon" ng-class="getIcon('group_name')"></i></th>

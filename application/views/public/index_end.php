@@ -6,11 +6,7 @@
 <script src="angularjs/autocomplete.js"></script>
 <script src="angularjs/angular-ui-bootstrap/0.6.0/ui-bootstrap-tpls.js"></script>
 <script src = "node_modules/moment/min/moment.min.js"></script>
-
-
-
-
-
+<script src = "node_modules/angular-xeditable/dist/js/xeditable.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
@@ -19,16 +15,11 @@
 <script src="js/jquery.easing.min.js"></script>
 <script type="text/javascript" src="js/fliplightbox.min.js"></script>
 <script src="js/functions.js"></script>
-
-
-
-
 <script src="js/md5/md5_js.js"></script>
 
 <script>
     wow = new WOW({}).init();
 </script>
-
 
 <script>
     // Get the modal
@@ -47,7 +38,6 @@
     var res = alasql('SELECT a, SUM(b) AS b FROM ? GROUP BY a',[data]);
    
 </script>
-
 
 <script src="js/login_script.js"></script>
 
@@ -74,8 +64,6 @@
 
 
 </script>
-
-
 
 </body>
 </html>
