@@ -195,6 +195,7 @@ class sale_model extends CI_Model {
                 ,making_charge_type
                 ,making_rate,making_charge
                 ,other_charge
+                ,other_charge_for
                 ,sgst
                 ,cgst
                 ,igst
@@ -221,6 +222,7 @@ class sale_model extends CI_Model {
                         , bill_details.making_rate
                         ,if(bill_details.making_charge_type=2,bill_details.making_rate,bill_details.making_rate*bill_details.net_weight) as making_charge
                         , bill_details.other_charge
+                        , bill_details.other_charge_for
                         , bill_details.sgst
                         , bill_details.cgst
                         , bill_details.igst
@@ -572,9 +574,9 @@ from bill_details where not isnull(other_charge_for) and bill_number=? and lengt
                     throw new Exception('error adding bill_details');
                 }
 
-                $updateBillMasterSql = "update bill_master set roundedOff = ? where bill_number = ?";
+                $updateBillMasterSql = "update bill_master set roundedOff = ?, updated_at = ? where bill_number = ?";
 
-                $result = $this->db->query($updateBillMasterSql, array($billMaster->roundedOff, $bill_number));
+                $result = $this->db->query($updateBillMasterSql, array($billMaster->roundedOff, date("Y-m-d h:i:s", time()) ,$bill_number));
 
                 if($result==FALSE){
                     throw new Exception('Updating bill master');

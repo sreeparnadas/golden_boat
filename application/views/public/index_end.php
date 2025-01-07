@@ -40,6 +40,7 @@
 </script>
 
 <script src="js/login_script.js"></script>
+<script src="js/logout_script.js"></script>
 
 <script src="angularjs_controller/myAppController.js"></script>
 <!--<script src="angularjs_controller/kolkataController.js"></script>-->

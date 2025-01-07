@@ -1,4 +1,4 @@
-app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,CalculatorService,$compile,$modal,$log) {
+app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,CalculatorService,$compile,$modal,$log,$timeout) {
     $scope.msg = "This is sale controller";
     $scope.tab = 1;
     $scope.showQuality=true;
@@ -71,6 +71,7 @@ app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,
     };
 
     $scope.defaultBillDetails={
+        bill_details_id: -1,
         quality:null,
         rate: 0,
         sgstFactor: 0,
@@ -464,6 +465,7 @@ app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,
 
     $scope.billDetailsEditProductObj = {};
     $scope.productListForEditBill = [];
+    $scope.isBillUpdated = false;
     $scope.getProductByGroupForBillEdit=function () {
         $scope.productListForEditBill=alasql('SELECT distinct product_id,product_name,quality  from ? where group_id=?',[$scope.productList,$scope.billDetailsEditProductObj.productGroup.group_id]);
     };
@@ -583,7 +585,13 @@ app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,
         if(test==0){
             //if no quality is selected by user then default quality will be the quality
             tempData.quality=data.product.quality;
-            $scope.billDetails.unshift(tempData);
+            if(data.bill_details_id != -1){
+                let tempIndex =$scope.billDetails .findIndex(k=>k.bill_details_id == data.bill_details_id);
+                $scope.billDetails[tempIndex] = tempData;
+            }
+            else{
+                $scope.billDetails.unshift(tempData);
+            }
             $scope.calculateTotalFromEditBillTable();
             $scope.billDetailsEditProductObj = angular.copy($scope.defaultBillDetails);
             $scope.setGstFactorForEditBill();
@@ -600,7 +608,6 @@ app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,
 
     $scope.populateBillEditDataToForm = function(index){
         let obj = $scope.billDetails[index];
-        console.log(obj);
         let pGrpIdx =$scope.productGroupList .findIndex(k=>k.group_id==obj.product_group_id);
         $scope.billDetailsEditProductObj.productGroup = $scope.productGroupList[pGrpIdx];
         $scope.getProductByGroupForBillEdit();
@@ -608,15 +615,16 @@ app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,
         let pIdx =$scope.productListForEditBill .findIndex(k=>k.product_id==obj.product_id);
         $scope.billDetailsEditProductObj.product = $scope.productListForEditBill[pIdx];
 
+        $scope.billDetailsEditProductObj.bill_details_id = obj.bill_details_id;
         $scope.billDetailsEditProductObj.quality = obj.product_quality;
         $scope.billDetailsEditProductObj.rate = obj.rate;
         $scope.billDetailsEditProductObj.taxableAmount = '';
         $scope.billDetailsEditProductObj.making_rate = obj.making_rate;
-        $scope.billDetailsEditProductObj.making_charge = obj.making_charge;
+        $scope.billDetailsEditProductObj.making_charge = $rootScope.roundNumber(obj.making_charge,2);
         $scope.billDetailsEditProductObj.making_charge_type = obj.making_charge_type;
         $scope.billDetailsEditProductObj.other_charge = obj.other_charge;
-        $scope.billDetailsEditProductObj.other_charge_for = '';
-        $scope.billDetailsEditProductObj.amount = obj.sale_value;
+        $scope.billDetailsEditProductObj.other_charge_for = obj.other_charge_for;
+        $scope.billDetailsEditProductObj.amount = $rootScope.roundNumber(obj.sale_value,2);
         $scope.billDetailsEditProductObj.sgst = obj.sgst;
         $scope.billDetailsEditProductObj.cgst = obj.cgst;
         $scope.billDetailsEditProductObj.igst = obj.igst;
@@ -627,11 +635,12 @@ app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,
         $scope.billDetailsEditProductObj.quantity = obj.quantity;
         $scope.billDetailsEditProductObj.gross_weight = obj.gross_weight;
         $scope.billDetailsEditProductObj.net_weight = obj.net_weight;
-        $scope.removeRowFromEditBillTable(index);
     };
 
 
     $scope.updateBill = function(billMasterData, billDetailsData){
+        $scope.isDuplicateDataInEditBill = false;
+        $scope.billDetailsEditProductObj = angular.copy($scope.defaultBillDetails);
         $scope.billMasterObj = {
             bill_number: billMasterData.bill_number,
             roundedOff: billMasterData.roundedOff
@@ -663,7 +672,15 @@ app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,
                 ,headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
             }).then(function(response){
                 let result = response.data.records;
-                console.log(result);
+                if($scope.showTableFooter){
+                    let updatedGrandTotal = $scope.showTableFooter.grandTotalAmount;
+                    let allSaleListIndex = $scope.allSaleList.findIndex(k=>k.bill_number==billMasterData.bill_number);
+                    $scope.allSaleList[allSaleListIndex].total_bill_amount = updatedGrandTotal;
+                }
+                $scope.isBillUpdated = true;
+                $timeout(function(){
+                    $scope.isBillUpdated = false;
+                },3000);
             })
     };
 

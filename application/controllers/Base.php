@@ -11,7 +11,8 @@ class Base extends CI_Controller {
     public function index()
     {
         $this->load->view('public/index_top');
-        $this->load->view('public/index_header');
+        // $this->load->view('public/index_header');
+        $this->get_default_header();
         $this->load->view('public/index_main');
         $this->load->view('public/index_login');
         //$this->load->view('index_slider');
@@ -84,6 +85,31 @@ class Base extends CI_Controller {
             $this->load->view('menus/index_header_admin');
         }
     }
+
+    public function get_default_header(){
+        $loggedinObj = $this -> session -> userdata();
+        if( isset($loggedinObj) &&  isset($loggedinObj['person_cat_id']) ){
+            $personCatId = $loggedinObj['person_cat_id'];
+            if($personCatId == 3){
+                $this->load->view('menus/index_header_staff');
+            }
+            else if($personCatId == 1){
+                $this->load->view('menus/index_header_admin'); 
+            }
+            
+        }
+        else{
+            $this->load->view('public/index_header');
+        }
+       
+    }
+
+    public function logout() {
+        // Unset all session data
+        $this->session->sess_destroy();
+    }
+
+
     public function test(){
 //        print_r($_GET['mas']);
         $master=$_GET['mas'];

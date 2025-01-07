@@ -30,7 +30,8 @@
 
                     <li><a href="#">Contact</a></li>
                     <li>
-                        <a href="http://127.0.0.1/golden_boat">Logout</a>
+                        <!-- <a href="http://127.0.0.1/golden_boat" id="logout-button">Logout</a> -->
+                        <a href="" id="logout-button">Logout</a>
                     </li>
                 </ul>
             </div>

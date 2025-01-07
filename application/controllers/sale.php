@@ -6,9 +6,9 @@ class Sale extends CI_Controller {
     function __construct() {
         parent::__construct();
         $this->load->library('session');
-        $this->load->model('person');
-        $this->load->model('sale_model');
-        $this->is_logged_in();
+        $this ->load ->model('person');
+        $this ->load ->model('sale_model');
+        $this -> is_logged_in();
     }
     function is_logged_in() {
 		$is_logged_in = $this -> session -> userdata('is_logged_in');
@@ -807,7 +807,20 @@ class Sale extends CI_Controller {
                                             </tr>
                                         </tbody>
                                     </table>
-                                </div>                                
+                                </div>
+
+                                <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12"  ng-show="billDetailsEditProductObj.other_charge>0" style="padding-bottom: 3px;padding-top: 3px;background-color: cornflowerblue">
+                                    <div class="form-controls col-sm-2"><label>Oth chrg for: </label></div>
+                                    <div class="form-controls col-sm-6">
+                                        <input type="text" class="textinput textInput form-control" ng-model="billDetailsEditProductObj.other_charge_for" placeholder="Other Charge For" ng-change="billDetailsEditProductObj.other_charge_for=(billDetailsEditProductObj.other_charge_for | capitalize)"/>
+                                    </div>
+                                </div>
+                                
+                                <div class="row" ng-if="isBillUpdated">
+                                    <div class="col-md-12 text-center">
+                                        <h1>Bill updated successfully!</h1>
+                                    </div>
+                                </div>
 
                                 <div class="row" id="bill-edit-div">
                                     <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -885,7 +898,7 @@ class Sale extends CI_Controller {
                                                             <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" numeric-value currency-decimal-places ng-keyup="setAmountForEditBill()" ng-model="billDetailsEditProductObj.rate">
                                                         </td>
                                                         <td>
-                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places disabled  ng-model="billDetailsEditProductObj.amount | number:2">
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places disabled  ng-model="billDetailsEditProductObj.amount">
                                                         </td>
                                                         <td>
                                                             <select ng-model="billDetailsEditProductObj.making_charge_type" ng-change="getMakingChargeForEditBill()">
@@ -898,7 +911,7 @@ class Sale extends CI_Controller {
                                                             <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places numeric-value ng-model="billDetailsEditProductObj.making_rate" ng-change="getMakingChargeForEditBill()">
                                                         </td>
                                                         <td>
-                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" ng-model="billDetailsEditProductObj.making_charge | number:2" disabled ng-change="setGstRateForEditBill()">
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" ng-model="billDetailsEditProductObj.making_charge" disabled ng-change="setGstRateForEditBill()">
                                                         </td>
                                                         <td>
                                                             <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places numeric-value ng-model="billDetailsEditProductObj.other_charge" ng-change="billDetailsEditProductObj.other_charge=roundNumber(billDetailsEditProductObj.other_charge)">
@@ -918,80 +931,82 @@ class Sale extends CI_Controller {
                                         </div>
                                         <div class="table-responsive" style="background-color: #c4abc4;">
                                             <table class="table" id="sale-details-list-table">
-                                            <thead>
-                                            <tr>
-                                                <th class="text-center">SL</th>
-                                                <th class="text-center">Product</th>
-                                                <th class="text-center">Quality</th>
-                                                <th class="text-center">Quantity</th>
-                                                <th class="text-center">G.wt</th>
-                                                <th class="text-center">Net.wt</th>
-                                                <th class="text-center">Rate</th>
-                                                <th class="text-center">Amt</th>
-                                                <th class="text-center">Mk.Rt(g)</th>
-                                                <th class="text-center">Mk.Chg</th>
-                                                <th class="text-center">Oth.Chg</th>
-                                                <th class="text-center">SGST</th>
-                                                <th class="text-center">CGST</th>
-                                                <th class="text-center">IGST</th>
-                                                <th class="text-center">Total amt</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody ng-repeat="s in billDetails">
-                                            <tr>
-                                                <td class="text-right">{{$index+1}}</td>
-                                                <td class="text-center">{{s.product_name}}</td>
-                                                <td class="text-center">{{s.product_quality}}</td>
-                                                <td class="text-right">{{s.quantity}}&nbsp;</td>
-                                                <td class="text-right"> {{s.gross_weight | number: 3}}</td>
-                                                <td class="text-right">{{s.net_weight | number: 3}}</td>
-                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.rate}}</td>
-                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.sale_value | number:2}}</td>
-                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.making_charge_type=="2"?"NIL":s.making_rate}}</td>
-                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.making_charge | number:2}}</td>
-                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.other_charge | number:2}}</td>
-                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.sgst_value | number:2}}</td>
-                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.cgst_value | number:2}}</td>
-                                                <td class="text-right"><i class="fa fa-inr"></i> {{s.igst_value | number:2}}</td>
-                                                <td class="text-right"><i class="fa fa-inr"></i> {{roundNumber(s.total_amount,2) | number: 2}}</td>
-                                                <td> 
-                                                    <!-- <a href="#" ng-hide="btnSubmitDisable" data-ng-click="removeRow($index)">
-                                                    <span class="glyphicon glyphicon-trash"></span>
-                                                     
-                                                    </a> -->
-                                                    <button type="button" class="btn btn-default btn-sm" ng-hide="btnSubmitDisable" data-ng-click="removeRowFromEditBillTable($index)">
-                                                        <span class="glyphicon glyphicon-trash"></span> 
-                                                    </button>
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">SL</th>
+                                                        <th class="text-center">Product</th>
+                                                        <th class="text-center">Quality</th>
+                                                        <th class="text-center">Quantity</th>
+                                                        <th class="text-center">G.wt</th>
+                                                        <th class="text-center">Net.wt</th>
+                                                        <th class="text-center">Rate</th>
+                                                        <th class="text-center">Amt</th>
+                                                        <th class="text-center">Mk.Rt(g)</th>
+                                                        <th class="text-center">Mk.Chg</th>
+                                                        <th class="text-center">Oth.Chg</th>
+                                                        <th class="text-center">SGST</th>
+                                                        <th class="text-center">CGST</th>
+                                                        <th class="text-center">IGST</th>
+                                                        <th class="text-center">Total amt</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody ng-repeat="s in billDetails">
+                                                    <tr>
+                                                        <td class="text-right">{{$index+1}}</td>
+                                                        <td class="text-center">{{s.product_name}}</td>
+                                                        <td class="text-center">{{s.product_quality}}</td>
+                                                        <td class="text-right">{{s.quantity}}&nbsp;</td>
+                                                        <td class="text-right"> {{s.gross_weight | number: 3}}</td>
+                                                        <td class="text-right">{{s.net_weight | number: 3}}</td>
+                                                        <td class="text-right"><i class="fa fa-inr"></i> {{s.rate}}</td>
+                                                        <td class="text-right"><i class="fa fa-inr"></i> {{s.sale_value | number:2}}</td>
+                                                        <td class="text-right"><i class="fa fa-inr"></i> {{s.making_charge_type=="2"?"NIL":s.making_rate}}</td>
+                                                        <td class="text-right"><i class="fa fa-inr"></i> {{s.making_charge | number:2}}</td>
+                                                        <td class="text-right"><i class="fa fa-inr"></i> 
+                                                            {{s.other_charge | number:2}}
+                                                        </td>
+                                                        <td class="text-right"><i class="fa fa-inr"></i> {{s.sgst_value | number:2}}</td>
+                                                        <td class="text-right"><i class="fa fa-inr"></i> {{s.cgst_value | number:2}}</td>
+                                                        <td class="text-right"><i class="fa fa-inr"></i> {{s.igst_value | number:2}}</td>
+                                                        <td class="text-right"><i class="fa fa-inr"></i> {{roundNumber(s.total_amount,2) | number: 2}}</td>
+                                                        <td> 
+                                                            <!-- <a href="#" ng-hide="btnSubmitDisable" data-ng-click="removeRow($index)">
+                                                            <span class="glyphicon glyphicon-trash"></span>
+                                                            
+                                                            </a> -->
+                                                            <button type="button" class="btn btn-default btn-sm" ng-hide="btnSubmitDisable" data-ng-click="removeRowFromEditBillTable($index)">
+                                                                <span class="glyphicon glyphicon-trash"></span> 
+                                                            </button>
 
-                                                    <button type="button" class="btn btn-default btn-sm" ng-hide="btnSubmitDisable" data-ng-click="populateBillEditDataToForm($index)">
-                                                        <span class="glyphicon glyphicon-edit"></span> 
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                            <tfoot>
-                                            <tr>
-                                                <td colspan="8" class="text-center">Total:</td>
-                                                <td  class="text-right">{{showTableFooter.totalQuantity}}</td>
-                                                <td  class="text-right">{{showTableFooter.totalMakingCharge | number:2}}</td>
-                                                <td  class="text-right">{{saleTableFooter[0].totalOtherCharge | number:2}}</td>
-                                                <td  class="text-right">{{saleTableFooter[0].totalSgst | number:2}}</td>
-                                                <td  class="text-right">{{saleTableFooter[0].totalCgst | number:2}}</td>
-                                                <td  class="text-right">{{saleTableFooter[0].totalIgst | number:2}}</td>
-                                                <td  class="text-right">{{showTableFooter.grandTotalAmount | number:2}}</td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="14" class="text-right">Round:</td>
+                                                            <button type="button" class="btn btn-default btn-sm" ng-hide="btnSubmitDisable" data-ng-click="populateBillEditDataToForm($index)">
+                                                                <span class="glyphicon glyphicon-edit"></span> 
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr>
+                                                        <td colspan="8" class="text-center">Total:</td>
+                                                        <td  class="text-right">{{showTableFooter.totalQuantity}}</td>
+                                                        <td  class="text-right">{{showTableFooter.totalMakingCharge | number:2}}</td>
+                                                        <td  class="text-right">{{saleTableFooter[0].totalOtherCharge | number:2}}</td>
+                                                        <td  class="text-right">{{saleTableFooter[0].totalSgst | number:2}}</td>
+                                                        <td  class="text-right">{{saleTableFooter[0].totalCgst | number:2}}</td>
+                                                        <td  class="text-right">{{saleTableFooter[0].totalIgst | number:2}}</td>
+                                                        <td  class="text-right">{{showTableFooter.grandTotalAmount | number:2}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="14" class="text-right">Round:</td>
 
-                                                <td  class="text-right">{{billMaster.roundedOff |number:2}}</td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="14" class="text-right">Grand Total:</td>
+                                                        <td  class="text-right">{{billMaster.roundedOff |number:2}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="14" class="text-right">Grand Total:</td>
 
-                                                <td  class="text-right">{{(showTableFooter.grandTotalAmount + billMaster.roundedOff) | number:2}}</td>
-                                            </tr>
-                                            </tfoot>
-                                        </table>
+                                                        <td  class="text-right">{{(showTableFooter.grandTotalAmount + billMaster.roundedOff) | number:2}}</td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
                                         </div>
                                     </div>
                                 </div>
@@ -1034,6 +1049,7 @@ class Sale extends CI_Controller {
     }
 
 
+    
                                  // BILL 2 FUNCTIONS & HTML FORMS CODE
 
     public function angular_view_bill2(){
@@ -1132,6 +1148,8 @@ class Sale extends CI_Controller {
             }
 
         </style>
+
+                                    <!-- BILL 2 FUNCTIONS & HTML FORMS CODE -->
         <div class="container-fluid">
         <div class="row">
 
