@@ -564,7 +564,7 @@ from bill_details where not isnull(other_charge_for) and bill_number=? and lengt
                 ,$row->making_charge_type
                 ,$row->making_rate
                 ,$row->other_charge
-                ,''
+                ,$row->other_charge_for
                 ,$row->sgst
                 ,$row->cgst
                 ,$row->igst

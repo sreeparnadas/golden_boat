@@ -657,6 +657,7 @@ app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,
             ',making_charge_type '+
             ',making_rate '+
             ',other_charge '+
+            ',other_charge_for '+
             ',cgst '+
             ',sgst '+
             ',igst '+
