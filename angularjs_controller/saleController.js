@@ -32,11 +32,6 @@ app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,
         "padding" : "5px"
     };
 
-
-    $scope.changeDateFormat=function(userDate){
-        return moment(userDate).format('YYYY-MM-DD');
-    };
-
     $scope.saleMaster={
         memo_no: ''
         ,order_no: ''
@@ -684,5 +679,25 @@ app.controller("saleCtrl", function ($scope,$http,$filter,$rootScope, $location,
                 },3000);
             })
     };
+
+
+    $scope.backTolist = function(billNumber){
+        $scope.tab=2;
+        $timeout(function(){
+            var element = document.getElementById('bill-'+billNumber); 
+            if (element) {
+                element.scrollIntoView({ 
+                    behavior: 'smooth', 
+                    block: 'center' 
+                }); 
+                element.classList.add('highlighted');
+
+                $timeout(function(){
+                    element.classList.remove('highlighted'); 
+                },6000);
+            }
+
+        },1000);
+    }
 
 });//end of Controller

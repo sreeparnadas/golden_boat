@@ -6,8 +6,8 @@ class Sale extends CI_Controller {
     function __construct() {
         parent::__construct();
         $this->load->library('session');
-        $this ->load ->model('person');
-        $this ->load ->model('sale_model');
+        $this -> load -> model('person');
+        $this -> load -> model('sale_model');
         $this -> is_logged_in();
     }
     function is_logged_in() {
@@ -133,6 +133,12 @@ class Sale extends CI_Controller {
                         padding-top: 0px;
                         margin-left: 0px
                     }
+                    .highlighted {
+                        background-color: #ffff99; /* Example highlight color */
+                    }
+                    .hover-row {
+                        background-color: #f0f0f0; /* Example: Light gray */
+                    }
 
 
 
@@ -216,7 +222,7 @@ class Sale extends CI_Controller {
                                             <div class="form-group">
                                                 <label  class="control-label col-lg-1 col-md-1 col-sm-1 col-xs-1">Sl.dt</label>
                                                 <div class="controls col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                                    <input type="date" class="form-control" ng-init="saleMaster.sale_date=new Date()" ng-model="saleMaster.sale_date" ng-change="saleMaster.sale_date=changeDateFormat(saleMaster.sale_date)"  placeholder="DD/MM/YYYY" required/>
+                                                    <input type="date" class="form-control" ng-model="saleMaster.sale_date" ng-change="saleMaster.sale_date=changeDateFormat(saleMaster.sale_date)"  placeholder="DD/MM/YYYY" required/>
                                                 </div>
                                                 <label  class="control-label col-lg-1 col-md-1 col-sm-1 col-xs-1">By</label>
                                                 <div class="controls col-lg-2 col-md-2 col-sm-2 col-xs-2">
@@ -348,7 +354,7 @@ class Sale extends CI_Controller {
                                                             <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" numeric-value currency-decimal-places ng-keyup="setAmount()" ng-model="saleDetails.rate">
                                                         </td>
                                                         <td>
-                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places disabled  ng-model="saleDetails.amount | number:2">
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places disabled  ng-model="saleDetails.amount" ng-value="saleDetails.amount ? (saleDetails.amount | number:2) : ''">
                                                         </td>
                                                         <td>
                                                             <select ng-model="saleDetails.making_charge_type" ng-change="getMakingCharge()">
@@ -361,7 +367,7 @@ class Sale extends CI_Controller {
                                                             <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places numeric-value ng-model="saleDetails.making_rate" ng-change="getMakingCharge()">
                                                         </td>
                                                         <td>
-                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" ng-model="saleDetails.making_charge | number:2" disabled ng-change="setGst()">
+                                                            <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" ng-model="saleDetails.making_charge" ng-value="saleDetails.making_charge ? (saleDetails.making_charge | number:2) : ''"  disabled ng-change="setGst()">
                                                         </td>
                                                         <td>
                                                             <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places numeric-value ng-model="saleDetails.other_charge" ng-change="saleDetails.other_charge=roundNumber(saleDetails.other_charge)">
@@ -472,19 +478,19 @@ class Sale extends CI_Controller {
                                     <th ng-click="changeSorting('mobile_no')">Total<i class="glyphicon" ng-class="getIcon('mobile_no')"></i></th>
                                     <th>Action</th>
                                 </tr>
-                                <tbody ng-repeat="sale in allSaleList | filter : searchItem  | orderBy:sort.active:sort.descending">
-                                <tr ng-class-even="'banana'" ng-class-odd="'bee'">
-                                    <td>{{ $index+1}}</td>
-                                    <td>{{sale.sale_date  | date : "dd-MM-y" }}</td>
-                                    <td>{{sale.bill_number}}</td>
-                                    <td>{{sale.customer_name}}</td>
-                                    <td class="text-right">{{sale.total_bill_amount | number:2}}</td>
-                                    <td style="padding-left: 20px;">
-                                        <a href="#" ng-click="showSaleBill(sale)"><i class=" glyphicon glyphicon-eye-open"></i></a>
-                                        &nbsp;
-                                        <a href="#" ng-click="sendToEditBillPage(sale)"><i class="glyphicon glyphicon-edit"></i></a>
-                                    </td>
-                                </tr>
+                                <tbody>
+                                    <tr ng-repeat="sale in allSaleList | filter : searchItem  | orderBy:sort.active:sort.descending" id="bill-{{ sale.bill_number }}">
+                                        <td><b>{{ $index+1}}</b></td>
+                                        <td>{{sale.sale_date  | date : "dd-MM-y" }}</td>
+                                        <td>{{sale.bill_number}}</td>
+                                        <td>{{sale.customer_name}}</td>
+                                        <td class="text-right">{{sale.total_bill_amount | number:2}}</td>
+                                        <td style="padding-left: 20px;">
+                                            <a href="#" ng-click="showSaleBill(sale)"><i class=" glyphicon glyphicon-eye-open"></i></a>
+                                            &nbsp;
+                                            <a href="#" ng-click="sendToEditBillPage(sale)"><i class="glyphicon glyphicon-edit"></i></a>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -660,7 +666,7 @@ class Sale extends CI_Controller {
                             </table>
                             <div class="row" style="margin-top: 0px">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                  <b>In words {{(showTableFooter.grandTotalAmount + billMaster.roundedOff) | AmountConvertToWord}}</b>
+                                  <b ng-if="(showTableFooter.grandTotalAmount + billMaster.roundedOff)>0">In words {{(showTableFooter.grandTotalAmount + billMaster.roundedOff) | AmountConvertToWord}}</b>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="text-align: right">Bill Amount:</div>
                                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align: right">
@@ -775,6 +781,7 @@ class Sale extends CI_Controller {
                                                         <li>{{billMaster.mobile_no}}</li>
                                                         <li>{{billMaster.phone_no}}</li>
                                                     </ul>
+                                                    <button type="button" class="btn" ng-click=backTolist(billMaster.bill_number) style="background-color:darkturquoise;font-weight: 800;">Back to list</button>
                                                 </td>
                                                 <td >
                                                     <ul id="print-sale-details-ul">
@@ -1017,7 +1024,7 @@ class Sale extends CI_Controller {
                                     </div>
                                 </div>
 
-                                <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12" ng-show="false">
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                         <pre>billDetailsEditProductObj = {{billDetailsEditProductObj | json}}</pre>
                                     </div>
@@ -1164,9 +1171,6 @@ class Sale extends CI_Controller {
             </li>
             <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-click=""><span class="glyphicon glyphicon-file"></span>Show Bill</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#" role="tab" ng-click=""><span class="glyphicon glyphicon-edit"></span>Edit Bill</a>
             </li>
         </ul>
         <!-- Tab panels -->
@@ -1348,7 +1352,7 @@ class Sale extends CI_Controller {
                                 <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" numeric-value currency-decimal-places ng-keyup="setAmount()" ng-model="bill2SaleDetails.rate">
                             </td>
                             <td>
-                                <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places disabled  ng-model="bill2SaleDetails.amount | number:2">
+                                <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places disabled  ng-model="bill2SaleDetails.amount"  ng-value="bill2SaleDetails.amount ? (bill2SaleDetails.amount | number:2) : ''">
                             </td>
                             <td>
                                 <select ng-model="bill2SaleDetails.making_charge_type" ng-change="getMakingCharge()">
@@ -1361,7 +1365,7 @@ class Sale extends CI_Controller {
                                 <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places numeric-value ng-model="bill2SaleDetails.making_rate" ng-change="getMakingCharge()">
                             </td>
                             <td>
-                                <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" ng-model="bill2SaleDetails.making_charge | number:2" disabled>
+                                <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" ng-model="bill2SaleDetails.making_charge" ng-value="bill2SaleDetails.making_charge ? (bill2SaleDetails.making_charge | number:2) : ''" disabled>
                             </td>
                             <td>
                                 <input  type="text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 td-input text-right" currency-decimal-places numeric-value ng-model="bill2SaleDetails.other_charge" ng-change="bill2SaleDetails.other_charge=roundNumber(bill2SaleDetails.other_charge,2)">
@@ -1590,7 +1594,7 @@ class Sale extends CI_Controller {
                         <td style="text-align: right;">{{bill2Master.roundedOff | number:2}}</td>
                     </tr>
                     <tr>
-                        <td colspan="9"><b>In words {{(showTableFooter.grandTotalAmount + bill2Master.roundedOff) | AmountConvertToWord}}</b></td>
+                        <td colspan="9"><b ng-if="(showTableFooter.grandTotalAmount + bill2Master.roundedOff)>0">In words {{(showTableFooter.grandTotalAmount + bill2Master.roundedOff) | AmountConvertToWord}}</b></td>
                         <td colspan="3">Bill Amount: </td>
                         <td style="text-align: right"><b>{{(showTableFooter.grandTotalAmount + bill2Master.roundedOff) | number:2}}</b></td>
 
@@ -1701,7 +1705,7 @@ class Sale extends CI_Controller {
                         <td class="text-right">{{bill2Master.roundedOff | number:2}}</td>
                     </tr>
                     <tr>
-                        <td colspan="9"><b>In words {{(showTableFooter.grandTotalAmount + bill2Master.roundedOff) | AmountConvertToWord}}</b></td>
+                        <td colspan="9"><b ng-if="(showTableFooter.grandTotalAmount + bill2Master.roundedOff)>0">In words {{(showTableFooter.grandTotalAmount + bill2Master.roundedOff) | AmountConvertToWord}}</b></td>
                         <td colspan="3">Bill Amount: </td>
                         <td class="text-right"><b>{{(showTableFooter.grandTotalAmount + bill2Master.roundedOff) | number:2}}</b></td>
 
